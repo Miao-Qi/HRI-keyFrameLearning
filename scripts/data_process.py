@@ -11,6 +11,12 @@ from geometry_msgs.msg import Twist
 from turtlesim.msg import Pose
 from std_msgs.msg import String
 
+# ----------------------------------------------------------------------
+# Configuration Constants 
+# ----------------------------------------------------------------------
+# Sphero speed 
+SPD = 50 
+
 index = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32]
 group_counter = dict((el,0) for el in index)
 group_theta = dict((el,0) for el in index)
@@ -61,6 +67,7 @@ def init_model():
 
 
 def myCallback(data):
+    global SPD
     global group_theta
     global gmm_model
     global last_state
@@ -68,12 +75,24 @@ def myCallback(data):
     pos_group = gmm_model.predict([data.x, data.y]).reshape(1, -1).item(0)
     new_theta = group_theta[pos_group]
     #newTwist = createTwist(0, new_theta)
-    newTwist = createTwist(0, new_theta - data.theta)
-    if last_state == pos_group:
-        newTwist = createTwist(0.5, 0)
-    else:
-        if abs(new_theta - data.theta) < 0.1:
-            last_state = pos_group
+
+    # -- Chunheng Luo
+    # Chaged Twist parameters 
+    # TODO: Check if this is correct 
+    # Original code 
+    #newTwist = createTwist(0, new_theta - data.theta)
+    # Changed 
+    newTwist = createTwist(SPD * math.cos(new_theta), SPD * math.sin(new_theta))  
+
+    # if last_state == pos_group:
+    #     # Orignial code 
+    #     #newTwist = createTwist(0.5, 0)
+    #     # Changed 
+    #     # Twist unchanged 
+    # else:
+    #     if abs(new_theta - data.theta) < 0.1:
+    #         last_state = pos_group
+
     print (rospy.get_caller_id() + ' heard currentPos' + "\n")
     print (data)
     print ("\n\n")
@@ -84,14 +103,24 @@ def myCallback(data):
 
     print ("Publish new twist")
 
-def createTwist(lx, az):
+
+# -- Chunheng Luo 
+# Changed function signiture 
+# TODO: Change all function call 
+# Original code 
+#def createTwist(lx, az):
+# Changed 
+def createTwist(lx, ly): 
     newTwist = Twist()
     newTwist.linear.x = lx
-    newTwist.linear.y = 0
+    newTwist.linear.y = ly
     newTwist.linear.z = 0
     newTwist.angular.x = 0
     newTwist.angular.y = 0
-    newTwist.angular.z = az
+    # Original code 
+    #newTwist.angular.z = az
+    # Changed 
+    newTwist.angular.z = 0
     return newTwist
 
 def DataProcess():

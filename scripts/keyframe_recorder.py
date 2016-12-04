@@ -38,7 +38,7 @@ def Callback (msg) :
   curVelY = msg.twist.twist.linear.y
   curDirc = math.atan2(curVelY, curVelX)
   # Write to file
-  fp = open('keyframe.txt', 'a')
+  fp = open('frames.txt', 'w+')
   print fp.write(str(curPosX) + ',' + str(curPosY) + ',' + str(curDirc) + '\n')
 
 # ----------------------------------------------------------------------

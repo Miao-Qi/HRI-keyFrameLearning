@@ -25,7 +25,13 @@ CurTheta = 0
 def myCallback(data):
     global SPD
     global CurTheta 
+
+    # For simulation ---------------------------------------------------
     pub = rospy.Publisher('/turtle1/cmd_vel', Twist, queue_size=10)
+    # TODO
+    # For Sphero -------------------------------------------------------
+    # pub = rospy.Publisher('cmd_vel', Twist, queue_size=10)
+
     print (rospy.get_caller_id() + 'Current instruction: ' + data.data + "\n")
     newTwist = createTwist(SPD * math.cos(CurTheta), SPD * math.sin(CurTheta))
     if data.data == "go straight":

@@ -38,7 +38,7 @@ def init_model():
     group_theta = dict((el,0) for el in index)
 
     # data preprocess
-    my_data = genfromtxt('testfile', delimiter=',')
+    my_data = genfromtxt('frames.txt', delimiter=',')
     dataSet = np.array(my_data)
     pos, dirc, dummy = np.split(my_data, [2, 3], axis = 1)
 
@@ -71,7 +71,13 @@ def myCallback(data):
     global group_theta
     global gmm_model
     global last_state
-    pub = rospy.Publisher('turtle1/cmd_vel', Twist, queue_size=10)
+
+    # For simulation ---------------------------------------------------
+    pub = rospy.Publisher('/turtle1/cmd_vel', Twist, queue_size=10)
+    # TODO
+    # For Sphero -------------------------------------------------------
+    # pub = rospy.Publisher('cmd_vel', Twist, queue_size=10)
+
     pos_group = gmm_model.predict([data.x, data.y]).reshape(1, -1).item(0)
     new_theta = group_theta[pos_group]
     #newTwist = createTwist(0, new_theta)

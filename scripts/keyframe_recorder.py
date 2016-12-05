@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 import rospy
+import math
 import sys
 
 from nav_msgs.msg      import Odometry
@@ -17,15 +18,7 @@ from nav_msgs.msg      import Odometry
 # 2016-12-03
 ########################################################################
 
-# ----------------------------------------------------------------------
-# Node initialization
-# ----------------------------------------------------------------------
-rospy.init_node('keyframe_recorder') 
-
-# ----------------------------------------------------------------------
-# Subscribers and publishers
-# ----------------------------------------------------------------------
-Sub = rospy.Subscriber('keyframe', Odometry, Callback) 
+f = open('frames.txt', 'w+')
 
 # ----------------------------------------------------------------------
 # Callback functions 
@@ -38,13 +31,21 @@ def Callback (msg) :
   curVelY = msg.twist.twist.linear.y
   curDirc = math.atan2(curVelY, curVelX)
   # Write to file
-  fp = open('frames.txt', 'w+')
-  print fp.write(str(curPosX) + ',' + str(curPosY) + ',' + str(curDirc) + '\n')
+  newData = str(curPosX) + ',' + str(curPosY) + ',' + str(curDirc)
+  print(newData)
+  f = open('frames.txt', 'a')
+  f.write(newData)
+  f.write("\n")
+  print("Write to file: \n") 
+  print(msg)
 
 # ----------------------------------------------------------------------
 # Main routine 
 # ----------------------------------------------------------------------
-rate = rospy.Rate(10) 
-while not rospy.is_shutdown() : 
-  rate.sleep() 
+if __name__ == '__main__':
+  rospy.init_node('keyframe_recorder') 
+  print('keyframe_recorder') 
+  rospy.Subscriber('keyframe', Odometry, Callback) 
+  rospy.spin()
+  f.close()
 

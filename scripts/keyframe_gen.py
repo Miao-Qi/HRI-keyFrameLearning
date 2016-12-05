@@ -1,8 +1,10 @@
 #!/usr/bin/python
 
 import rospy
+import math
 import sys
 
+from std_msgs.msg      import String
 from nav_msgs.msg      import Odometry
 from turtlesim.msg     import Pose
 
@@ -23,22 +25,7 @@ from turtlesim.msg     import Pose
 # Node initialization
 # ----------------------------------------------------------------------
 rospy.init_node('keyframe_gen') 
-
-# ----------------------------------------------------------------------
-# Subscribers and publishers
-# ----------------------------------------------------------------------
-# For turtlesim simulation ---------------------------------------------
-rospy.Subscriber('turtle1/pose', Pose, PosCallback) 
-# TODO
-# For Shpero -----------------------------------------------------------
-# rospy.Subscriber('odom', Odometry, PosCallback) 
-rospy.Subscriber('verbalInstruction', String, CmdCallback)
-Pub = rospy.Publisher('keyframe', Odometry, queue_size=2) 
-
-# ----------------------------------------------------------------------
-# Global states
-# ----------------------------------------------------------------------
-ReadInOdometry = Odometry() 
+print('keyframe_gen')
 
 # ----------------------------------------------------------------------
 # Callback functions 
@@ -57,12 +44,28 @@ def PosCallback (msg) :
 
 def CmdCallback (msg) : 
   global Pub 
-  if msg.data == 'keep the frame' : 
+  if msg.data == 'keep frame' : 
     print('Frame kept: \n')
     # print(str(ReadInOdometry.pose.pose.position.x) + ', ' + str(ReadInOdometry.pose.pose.y) + '\n') 
     print(ReadInOdometry) 
     print('\n') 
     Pub.publish(ReadInOdometry)
+
+# ----------------------------------------------------------------------
+# Subscribers and publishers
+# ----------------------------------------------------------------------
+# For turtlesim simulation ---------------------------------------------
+rospy.Subscriber('turtle1/pose', Pose, PosCallback) 
+# TODO
+# For Shpero -----------------------------------------------------------
+# rospy.Subscriber('odom', Odometry, PosCallback) 
+rospy.Subscriber('verbalInstruction', String, CmdCallback)
+Pub = rospy.Publisher('keyframe', Odometry, queue_size=2) 
+
+# ----------------------------------------------------------------------
+# Global states
+# ----------------------------------------------------------------------
+ReadInOdometry = Odometry() 
 
 # ----------------------------------------------------------------------
 # Main routine 

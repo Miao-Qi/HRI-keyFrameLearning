@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python
 
 import rospy
 from turtlesim.msg import Pose
@@ -12,63 +12,67 @@ target_theta = 0
 # ----------------------------------------------------------------------
 # Configuration Constants 
 # ----------------------------------------------------------------------
+# TODO
 # Sphero speed 
-SPD = 50 
+SPD = 0.1 
 
 # ----------------------------------------------------------------------
 # Global states
 # ----------------------------------------------------------------------
 CurTheta = 0
+CurTwist = Twist()
+
+# ----------------------------------------------------------------------
+# Publishers
+# ----------------------------------------------------------------------
+# For simulation ---------------------------------------------------
+pub = rospy.Publisher('/turtle1/cmd_vel', Twist, queue_size=10)
+# TODO
+# For Sphero -------------------------------------------------------
+# pub = rospy.Publisher('cmd_vel', Twist, queue_size=10)
+
+
 
 # TODO: Modified
 # Use linear velocity instead of angular velocity to control direction
 def myCallback(data):
     global SPD
     global CurTheta 
-
-    # For simulation ---------------------------------------------------
-    pub = rospy.Publisher('/turtle1/cmd_vel', Twist, queue_size=10)
-    # TODO
-    # For Sphero -------------------------------------------------------
-    # pub = rospy.Publisher('cmd_vel', Twist, queue_size=10)
-
+    global CurTwist 
+    global pub
     print (rospy.get_caller_id() + 'Current instruction: ' + data.data + "\n")
-    newTwist = createTwist(SPD * math.cos(CurTheta), SPD * math.sin(CurTheta))
-    if data.data == "go straight":
-        newTwist = createTwist(SPD * math.cos(CurTheta), SPD * math.sin(CurTheta))
-    #if data.data == "right" and data.data == last_instruction:
-    if data.data == "turn right":
+    if data.data == "go":
+        CurTwist = createTwist(SPD * math.cos(CurTheta), SPD * math.sin(CurTheta))
+    elif data.data == "turn right":
         CurTheta -= math.pi/2
-        # newTwist = createTwist(1, -math.pi/4)
-        newTwist = createTwist(SPD * math.cos(CurTheta), SPD * math.sin(CurTheta))
-        last_instruction = data.data
-    #if data.data == "left" and data.data == last_instruction:
-    if data.data == "turn left":
+        CurTwist = createTwist(SPD * math.cos(CurTheta), SPD * math.sin(CurTheta))
+    elif data.data == "turn left":
         CurTheta += math.pi/2
-        # newTwist = createTwist(1, math.pi/4)
-        newTwist = createTwist(SPD * math.cos(CurTheta), SPD * math.sin(CurTheta))
-    pub.publish(newTwist)
+        CurTwist = createTwist(SPD * math.cos(CurTheta), SPD * math.sin(CurTheta))
+    elif data.data == "stop":
+        CurTwist = createTwist(0, 0)
     print ("Publish new twist: ")
-    print (newTwist)
+    print (CurTwist)
     print ("\n")
 
 # TODO: Modified
 # Use linear velocity instead of angular velocity to control direction
 def createTwist(lx, ly):
-    newTwist = Twist()
-    newTwist.linear.x = lx
-    newTwist.linear.y = ly
-    newTwist.linear.z = 0
-    newTwist.angular.x = 0
-    newTwist.angular.y = 0
-    newTwist.angular.z = 0
-    return newTwist
+    CurTwist = Twist()
+    CurTwist.linear.x = lx
+    CurTwist.linear.y = ly
+    CurTwist.linear.z = 0
+    CurTwist.angular.x = 0
+    CurTwist.angular.y = 0
+    CurTwist.angular.z = 0
+    return CurTwist
 
 def turtle_controller():
     rospy.init_node('turtle_controller', anonymous=True)
     rospy.Subscriber('verbalInstruction', String, myCallback)
-    rate = rospy.Rate(0.5)
+    rate = rospy.Rate(10)
     while not rospy.is_shutdown():
+        pub.publish(CurTwist)
         rate.sleep()
 
 if __name__ == '__main__':

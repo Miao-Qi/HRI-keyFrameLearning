@@ -1,15 +1,15 @@
 #!/bin/bash 
 
-gnome-terminal -e 'roscore' &
-sleep 5 
-
-# For simulation
-gnome-terminal -e 'rosrun turtlesim turtlesim_node' &
+# gnome-terminal -e 'roscore' &
+# sleep 5 
 
 # TODO
+# For simulation
+# gnome-terminal -e 'rosrun turtlesim turtlesim_node' &
+
 # For Sphero 
 # gnome-terminal -e 'rosrun sphero_node sphero.py' &
-# sleep 75
+# sleep 10
 
 gnome-terminal -e 'rqt_graph' &
 

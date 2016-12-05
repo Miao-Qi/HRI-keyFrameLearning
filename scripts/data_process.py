@@ -3,20 +3,28 @@
 import rospy
 import sys
 import math
-import numpy as np
-from numpy import genfromtxt
-from sklearn.cluster import KMeans
-from sklearn import mixture
-from geometry_msgs.msg import Twist
-from turtlesim.msg import Pose
-from std_msgs.msg import String
+import numpy                 as np
+
+from numpy                   import genfromtxt
+from sklearn.cluster         import KMeans
+from sklearn                 import mixture
+from geometry_msgs.msg       import Twist
+from turtlesim.msg           import Pose
+from std_msgs.msg            import String
+from nav_msgs.msg            import Odometry
 
 # ----------------------------------------------------------------------
 # Configuration Constants 
 # ----------------------------------------------------------------------
 # TODO
 # Sphero speed 
-SPD = 0.1 
+SPD = 50 
+
+# TODO
+# For simulation ---------------------------------------------------
+# pub = rospy.Publisher('/turtle1/cmd_vel', Twist, queue_size=10)
+# For Sphero -------------------------------------------------------
+pub = rospy.Publisher('cmd_vel', Twist, queue_size=10)
 
 index = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32]
 group_counter = dict((el,0) for el in index)
@@ -72,33 +80,32 @@ def myCallback(data):
     global group_theta
     global gmm_model
     global last_state
+    global pub
 
-    # For simulation ---------------------------------------------------
-    pub = rospy.Publisher('/turtle1/cmd_vel', Twist, queue_size=10)
     # TODO
-    # For Sphero -------------------------------------------------------
-    # pub = rospy.Publisher('cmd_vel', Twist, queue_size=10)
+    # For simulation
+    # PosX = data.x
+    # PosY = data.y
+    # PosT = data.theta
+    # For Sphero 
+    PosX = data.pose.pose.position.x
+    PosY = data.pose.pose.position.y
+    PosT = math.atan2(data.twist.twist.linear.y, data.twist.twist.linear.x)
 
-    pos_group = gmm_model.predict([data.x, data.y]).reshape(1, -1).item(0)
+    pos_group = gmm_model.predict([PosX, PosY]).reshape(1, -1).item(0)
     new_theta = group_theta[pos_group]
-    #newTwist = createTwist(0, new_theta)
 
-    # -- Chunheng Luo
-    # Chaged Twist parameters 
-    # TODO: Check if this is correct 
-    # Original code 
-    #newTwist = createTwist(0, new_theta - data.theta)
-    # Changed 
     newTwist = createTwist(SPD * math.cos(new_theta), SPD * math.sin(new_theta))  
+    pub.publish(newTwist)
+    print ("Publish new twist")
 
-    # if last_state == pos_group:
-    #     # Orignial code 
-    #     #newTwist = createTwist(0.5, 0)
-    #     # Changed 
-    #     # Twist unchanged 
-    # else:
-    #     if abs(new_theta - data.theta) < 0.1:
-    #         last_state = pos_group
+    # if not last_state == pos_group : 
+    #   newTwist = createTwist(SPD * math.cos(new_theta), SPD * math.sin(new_theta))  
+    #   pub.publish(newTwist)
+    #   print ("Publish new twist")
+
+    #   if abs(new_theta - PosT) < 0.1:
+    #       last_state = pos_group
 
     print (rospy.get_caller_id() + ' heard currentPos' + "\n")
     print (data)
@@ -106,14 +113,8 @@ def myCallback(data):
     print ("In group: " + str(pos_group) + ' and make head turn to: ' + str(new_theta) + "\n")
     print ("\n\n")
 
-    pub.publish(newTwist)
-
-    print ("Publish new twist")
-
-
 # -- Chunheng Luo 
 # Changed function signiture 
-# TODO: Change all function call 
 # Original code 
 #def createTwist(lx, az):
 # Changed 
@@ -133,7 +134,13 @@ def createTwist(lx, ly):
 def DataProcess():
     init_model()
     rospy.init_node('data_process', anonymous=True)
-    rospy.Subscriber('turtle1/pose', Pose, myCallback)
+
+    # TODO
+    # For simulation
+    # rospy.Subscriber('turtle1/pose', Pose, myCallback)
+    # For Sphero 
+    rospy.Subscriber('odom', Odometry, myCallback)
+
     rate = rospy.Rate(10)
     while not rospy.is_shutdown():
         rate.sleep()

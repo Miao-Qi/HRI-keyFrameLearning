@@ -32,15 +32,15 @@ print('keyframe_gen')
 # ----------------------------------------------------------------------
 def PosCallback (msg) : 
   global ReadInOdometry 
+  # TODO
   # For turtlesim simulation -------------------------------------------
   # Put parameters to global Odometry state
-  ReadInOdometry.pose.pose.position.x = msg.x
-  ReadInOdometry.pose.pose.position.y = msg.y
-  ReadInOdometry.twist.twist.linear.x = msg.linear_velocity * math.cos(msg.theta)
-  ReadInOdometry.twist.twist.linear.y = msg.linear_velocity * math.sin(msg.theta)
-  # TODO
+  # ReadInOdometry.pose.pose.position.x = msg.x
+  # ReadInOdometry.pose.pose.position.y = msg.y
+  # ReadInOdometry.twist.twist.linear.x = msg.linear_velocity * math.cos(msg.theta)
+  # ReadInOdometry.twist.twist.linear.y = msg.linear_velocity * math.sin(msg.theta)
   # For Shpero ---------------------------------------------------------
-  # ReadInOdometry = msg
+  ReadInOdometry = msg
 
 def CmdCallback (msg) : 
   global Pub 
@@ -54,11 +54,11 @@ def CmdCallback (msg) :
 # ----------------------------------------------------------------------
 # Subscribers and publishers
 # ----------------------------------------------------------------------
-# For turtlesim simulation ---------------------------------------------
-rospy.Subscriber('turtle1/pose', Pose, PosCallback) 
 # TODO
+# For turtlesim simulation ---------------------------------------------
+# rospy.Subscriber('turtle1/pose', Pose, PosCallback) 
 # For Shpero -----------------------------------------------------------
-# rospy.Subscriber('odom', Odometry, PosCallback) 
+rospy.Subscriber('odom', Odometry, PosCallback) 
 rospy.Subscriber('verbalInstruction', String, CmdCallback)
 Pub = rospy.Publisher('keyframe', Odometry, queue_size=2) 
 

@@ -13,12 +13,12 @@ def callback(data):
     rospy.loginfo(rospy.get_caller_id() + 'I heard %s', data)
     #newData = str(counter) + "," + str(data.x) + "," + str(data.y) + "," + str(data.theta) + "," + str(data.linear_velocity) + "," + str(data.angular_velocity)
 
-    # For simulation -----------------------------------------------------
-    newData = str(data.x) + "," + str(data.y) + "," + str(data.theta)
     # TODO
+    # For simulation -----------------------------------------------------
+    # newData = str(data.x) + "," + str(data.y) + "," + str(data.theta)
     # For Sphero ---------------------------------------------------------
-    # theta = math.atan2(data.twist.twist.linear.y, data.twist.twist.linear.x)
-    # newData = str(data.pose.pose.position.x) + "," + str(data.pose.pose.position.y) + "," + str(theta)  
+    theta = math.atan2(data.twist.twist.linear.y, data.twist.twist.linear.x)
+    newData = str(data.pose.pose.position.x) + "," + str(data.pose.pose.position.y) + "," + str(theta)  
 
     f.write(newData)
     f.write("\n")
@@ -27,11 +27,11 @@ def callback(data):
 
 def listener():
     rospy.init_node('listener', anonymous=True)
-    # For simulation -----------------------------------------------------
-    rospy.Subscriber('/turtle1/pose', Pose, callback)
     # TODO
+    # For simulation -----------------------------------------------------
+    # rospy.Subscriber('/turtle1/pose', Pose, callback)
     # For Sphero ---------------------------------------------------------
-    # rospy.Subscriber('odom', Odometry, callback)
+    rospy.Subscriber('odom', Odometry, callback)
 
     # spin() simply keeps python from exiting until this node is stopped
     rospy.spin()

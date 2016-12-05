@@ -14,7 +14,7 @@ target_theta = 0
 # ----------------------------------------------------------------------
 # TODO
 # Sphero speed 
-SPD = 0.1 
+SPD = 50 
 
 # ----------------------------------------------------------------------
 # Global states
@@ -25,15 +25,14 @@ CurTwist = Twist()
 # ----------------------------------------------------------------------
 # Publishers
 # ----------------------------------------------------------------------
-# For simulation ---------------------------------------------------
-pub = rospy.Publisher('/turtle1/cmd_vel', Twist, queue_size=10)
 # TODO
+# For simulation ---------------------------------------------------
+# pub = rospy.Publisher('/turtle1/cmd_vel', Twist, queue_size=10)
 # For Sphero -------------------------------------------------------
-# pub = rospy.Publisher('cmd_vel', Twist, queue_size=10)
+pub = rospy.Publisher('cmd_vel', Twist, queue_size=10)
 
 
 
-# TODO: Modified
 # Use linear velocity instead of angular velocity to control direction
 def myCallback(data):
     global SPD
@@ -55,7 +54,6 @@ def myCallback(data):
     print (CurTwist)
     print ("\n")
 
-# TODO: Modified
 # Use linear velocity instead of angular velocity to control direction
 def createTwist(lx, ly):
     CurTwist = Twist()

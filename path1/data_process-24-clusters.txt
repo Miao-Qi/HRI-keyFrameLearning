@@ -1,0 +1,3580 @@
+clustering info: 
+cluster timestamp: 
+cluster number: 0
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 1
+# of elements in cluster: 237
+cluster timestamp: 11.3633302757
+cluster number: 2
+# of elements in cluster: 283
+cluster timestamp: 2.40926492004
+cluster number: 3
+# of elements in cluster: 183
+cluster timestamp: 17.7914917365
+cluster number: 4
+# of elements in cluster: 218
+cluster timestamp: 6.79715967725
+cluster number: 5
+# of elements in cluster: 184
+cluster timestamp: 31.9114753021
+cluster number: 6
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 7
+# of elements in cluster: 245
+cluster timestamp: 27.3914901218
+cluster number: 8
+# of elements in cluster: 190
+cluster timestamp: 14.8021057719
+cluster number: 9
+# of elements in cluster: 77
+cluster timestamp: 7.85548096199
+cluster number: 10
+# of elements in cluster: 234
+cluster timestamp: 21.1490928088
+cluster number: 11
+# of elements in cluster: 1
+cluster timestamp: 6.92748498917
+cluster number: 12
+# of elements in cluster: 1
+cluster timestamp: 14.3035001755
+cluster number: 13
+# of elements in cluster: 1
+cluster timestamp: 21.6474890709
+cluster number: 14
+# of elements in cluster: 1
+cluster timestamp: 23.7754850388
+cluster number: 15
+# of elements in cluster: 1
+cluster timestamp: 9.39141702652
+cluster number: 16
+# of elements in cluster: 123
+cluster timestamp: 24.2352073697
+cluster number: 17
+# of elements in cluster: 1
+cluster timestamp: 2.47949504852
+cluster number: 18
+# of elements in cluster: 1
+cluster timestamp: 4.11148118973
+cluster number: 19
+# of elements in cluster: 1
+cluster timestamp: 19.3276340961
+cluster number: 20
+# of elements in cluster: 26
+cluster timestamp: 24.2314526576
+cluster number: 21
+# of elements in cluster: 68
+cluster timestamp: 29.8954752929
+cluster number: 22
+# of elements in cluster: 1
+cluster timestamp: 6.71950721741
+cluster number: 23
+# of elements in cluster: 1
+cluster timestamp: 12.3515200615
+cluster number: 24
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 25
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 26
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 27
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 28
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 29
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 30
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 31
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 32
+# of elements in cluster: 0
+cluster timestamp: 0
+
+
+cluster theta: 
+cluster number: 0
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 1
+# of elements in cluster: 237
+cluster theta: 3.07686079705
+cluster number: 2
+# of elements in cluster: 283
+cluster theta: 0.0339222615289
+cluster number: 3
+# of elements in cluster: 183
+cluster theta: 4.04826229648
+cluster number: 4
+# of elements in cluster: 218
+cluster theta: 1.58458717017
+cluster number: 5
+# of elements in cluster: 184
+cluster theta: -0.267185300589
+cluster number: 6
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 7
+# of elements in cluster: 245
+cluster theta: 0.596031032107
+cluster number: 8
+# of elements in cluster: 190
+cluster theta: 3.79789474638
+cluster number: 9
+# of elements in cluster: 77
+cluster theta: 1.84477924526
+cluster number: 10
+# of elements in cluster: 234
+cluster theta: 4.83677972353
+cluster number: 11
+# of elements in cluster: 1
+cluster theta: 1.66400003433
+cluster number: 12
+# of elements in cluster: 1
+cluster theta: 4.0
+cluster number: 13
+# of elements in cluster: 1
+cluster theta: 4.73600006104
+cluster number: 14
+# of elements in cluster: 1
+cluster theta: 0.084814697504
+cluster number: 15
+# of elements in cluster: 1
+cluster theta: 2.59200000763
+cluster number: 16
+# of elements in cluster: 123
+cluster theta: 0.084814697504
+cluster number: 17
+# of elements in cluster: 1
+cluster theta: 0.0
+cluster number: 18
+# of elements in cluster: 1
+cluster theta: 0.0
+cluster number: 19
+# of elements in cluster: 1
+cluster theta: 4.73600006104
+cluster number: 20
+# of elements in cluster: 26
+cluster theta: 0.084814697504
+cluster number: 21
+# of elements in cluster: 68
+cluster theta: 0.47399117373
+cluster number: 22
+# of elements in cluster: 1
+cluster theta: 1.66400003433
+cluster number: 23
+# of elements in cluster: 1
+cluster theta: 3.20000004768
+cluster number: 24
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 25
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 26
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 27
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 28
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 29
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 30
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 31
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 32
+# of elements in cluster: 0
+cluster theta: 0
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.544444561,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.544444561,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.544444561,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.544444561,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.544444561,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.544444561,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.544444561,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.55244445801,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.56044435501,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.56844472885,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.57644462585,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.58444452286,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.59244441986,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.6004447937,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.6084446907,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.61644458771,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.62444448471,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.63244438171,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.64044475555,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.64844465256,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.65644454956,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.66444444656,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.67244434357,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.68044471741,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.68844461441,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.69644451141,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.70444440842,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.71244478226,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.72044467926,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.72844457626,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.73644447327,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.74444437027,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.75244474411,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.76044464111,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.76844453812,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.77644443512,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.78444433212,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.79244470596,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.80044460297,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.80844449997,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.81644439697,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.82444477081,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.83244466782,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.84044456482,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.84844446182,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.85644435883,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.86444473267,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.87244462967,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.88044452667,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.88844442368,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.89644479752,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.90444469452,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.91244459152,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.92044448853,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.92844438553,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.93644475937,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.94444465637,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.95244455338,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.96044445038,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.96844434738,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.97644472122,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.98444461823,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 5.99244451523,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.00044441223,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.00844478607,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.01644468307,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.02444458008,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.03244447708,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.04044437408,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.04844474792,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.05644464493,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.06444454193,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.07244443893,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.08044433594,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.08844470978,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.09644460678,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.10444450378,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.11244440079,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.12044477463,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.12844467163,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.13644456863,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.14444446564,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.15244436264,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.16044473648,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.16844463348,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.17644453049,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.18444442749,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.19244432449,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.20044469833,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.20844459534,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.21644449234,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.22444438934,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.23244476318,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.24044466019,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.24844455719,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.25644445419,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.2644443512,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.27244472504,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.28044462204,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.28844451904,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.29644441605,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.30444478989,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.31244468689,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.32044458389,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.3284444809,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.3364443779,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.34444475174,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.35244464874,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.36044454575,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.36844444275,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.37644433975,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.38444471359,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.3924446106,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.4004445076,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.4084444046,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.41644477844,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.42444467545,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.43244457245,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.44044446945,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.44844436646,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.4564447403,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.4644446373,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.4724445343,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.4804444313,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.48844432831,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.49644470215,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.50444459915,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.51244449615,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.52044439316,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.528444767,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.536444664,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.544444561,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.55244445801,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.56044435501,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.56844472885,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.57644462585,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.58444452286,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.59244441986,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.6004447937,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.6084446907,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.61644458771,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.62444448471,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.63244438171,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.64044475555,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.64844465256,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.65644454956,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.66444444656,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.67244434357,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.68044471741,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.68844461441,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.69644451141,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.70444440842,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.71244478226,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.72044467926,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.72844457626,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.73644447327,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.74444437027,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.75244474411,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.76044464111,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.76844453812,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.77644443512,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.78444433212,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.79244470596,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.80044460297,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.80844449997,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.81644439697,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.82444477081,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.83244466782,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.84044456482,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.84844446182,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.85644435883,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.86444473267,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.87244462967,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.88044452667,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.88844442368,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.89644479752,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.90444469452,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.91244459152,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.92044448853,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.92844438553,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.93644475937,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.94444465637,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.95244455338,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.96044445038,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.96844434738,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.97644472122,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.98444461823,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 6.99244451523,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.00044441223,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.00844478607,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.01644468307,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.02444458008,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.03244447708,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.04044437408,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.04844474792,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.05644464493,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.06444454193,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.07244443893,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.08044433594,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.08844470978,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.09644460678,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.10444450378,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.11244440079,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.12044477463,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.12844467163,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.13644456863,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.14444446564,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.15244436264,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.16044473648,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.16844463348,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.17644453049,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.18444442749,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.19244432449,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.20044469833,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.20844459534,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.21644449234,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.22444438934,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.23244476318,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.24044466019,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.24844455719,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.25644445419,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.2644443512,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.27244472504,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.28044462204,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.28844451904,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.29644441605,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.30444478989,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.31244468689,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.32044458389,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.3284444809,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.3364443779,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.34444475174,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.35244464874,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.36044454575,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.36844444275,y: 5.544444561,theta: 0.0
+In group: 17 and make head turn to: 0.0
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.36844444275,y: 5.544444561,theta: 0.0
+In group: 17 and make head turn to: 0.0
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.37644433975,y: 5.544444561,theta: 0.0
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.37644433975,y: 5.544444561,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.38444471359,y: 5.54444885254,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.3924446106,y: 5.54445314407,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.4004445076,y: 5.54445743561,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.4084444046,y: 5.54446172714,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.41644477844,y: 5.54446649551,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.42444467545,y: 5.54447078705,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.43244457245,y: 5.54447507858,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.44044446945,y: 5.54447937012,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.44844436646,y: 5.54448366165,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.4564447403,y: 5.54448795319,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.4644446373,y: 5.54449224472,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.4724445343,y: 5.54449653625,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.4804444313,y: 5.54450082779,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.48844432831,y: 5.54450511932,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.49644470215,y: 5.5445098877,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.50444459915,y: 5.54451417923,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.51244449615,y: 5.54451847076,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.52044439316,y: 5.5445227623,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.528444767,y: 5.54452705383,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.536444664,y: 5.54453134537,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.544444561,y: 5.5445356369,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.55244445801,y: 5.54453992844,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.56044435501,y: 5.54454421997,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.56844472885,y: 5.54454898834,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.57644462585,y: 5.54455327988,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.58444452286,y: 5.54455757141,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.59244441986,y: 5.54456186295,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.60044431686,y: 5.54456615448,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.6084446907,y: 5.54457044601,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.61644458771,y: 5.54457473755,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.62444448471,y: 5.54457902908,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.63244438171,y: 5.54458332062,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.64044475555,y: 5.54458761215,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.64844465256,y: 5.54459238052,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.65644454956,y: 5.54459667206,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.66444444656,y: 5.54460096359,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.67244434357,y: 5.54460525513,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.68044471741,y: 5.54460954666,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.68844461441,y: 5.5446138382,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.69644451141,y: 5.54461812973,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.70444440842,y: 5.54462242126,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.71244430542,y: 5.5446267128,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.72044467926,y: 5.54463148117,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.72844457626,y: 5.54463577271,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.73644447327,y: 5.54464006424,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.74444437027,y: 5.54464435577,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.75244426727,y: 5.54464864731,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.76044464111,y: 5.54465293884,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.76844453812,y: 5.54465723038,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.77644443512,y: 5.54466152191,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.78444433212,y: 5.54466581345,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.79244470596,y: 5.54467058182,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.80044460297,y: 5.54467487335,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.80844449997,y: 5.54467916489,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.81644439697,y: 5.54468345642,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.82444429398,y: 5.54468774796,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.83244466782,y: 5.54469203949,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.84044456482,y: 5.54469633102,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.84844446182,y: 5.54470062256,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.85644435883,y: 5.54470491409,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.86444425583,y: 5.54470920563,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.87244462967,y: 5.544713974,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.88044452667,y: 5.54471826553,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.88844442368,y: 5.54472255707,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.89644432068,y: 5.5447268486,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.90444469452,y: 5.54473114014,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.91244459152,y: 5.54473543167,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.92044448853,y: 5.54473972321,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.92844438553,y: 5.54474401474,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.93644428253,y: 5.54474830627,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.94444465637,y: 5.54475307465,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.95244455338,y: 5.54475736618,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.96044445038,y: 5.54476165771,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.96844434738,y: 5.54476594925,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.97644424438,y: 5.54477024078,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.98444461823,y: 5.54477453232,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 7.99244451523,y: 5.54477882385,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.00044441223,y: 5.54478311539,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.00844478607,y: 5.54478740692,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.01644420624,y: 5.54479169846,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.02444458008,y: 5.54479646683,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.03244400024,y: 5.54480075836,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.04044437408,y: 5.5448050499,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.04844474792,y: 5.54480934143,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.05644416809,y: 5.54481363297,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.06444454193,y: 5.5448179245,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.07244491577,y: 5.54482221603,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.08044433594,y: 5.54482650757,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.08844470978,y: 5.5448307991,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.09644412994,y: 5.54483556747,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.10444450378,y: 5.54483985901,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.11244487762,y: 5.54484415054,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.12044429779,y: 5.54484844208,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.12844467163,y: 5.54485273361,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.1364440918,y: 5.54485702515,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.14444446564,y: 5.54486131668,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.15244483948,y: 5.54486560822,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.16044425964,y: 5.54486989975,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.16844463348,y: 5.54487419128,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.17644405365,y: 5.54487895966,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.18444442749,y: 5.54488325119,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.19244480133,y: 5.54488754272,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.2004442215,y: 5.54489183426,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.20844459534,y: 5.54489612579,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.2164440155,y: 5.54490041733,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.22444438934,y: 5.54490470886,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.23244476318,y: 5.5449090004,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.24044418335,y: 5.54491329193,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.24844455719,y: 5.5449180603,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.25644397736,y: 5.54492235184,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.2644443512,y: 5.54492664337,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.27244472504,y: 5.54493093491,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.2804441452,y: 5.54493522644,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.28844451904,y: 5.54493951797,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.29644489288,y: 5.54494380951,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.30444431305,y: 5.54494810104,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.31244468689,y: 5.54495239258,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.32044410706,y: 5.54495668411,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.3284444809,y: 5.54496145248,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.33644485474,y: 5.54496574402,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.3444442749,y: 5.54497003555,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.35244464874,y: 5.54497432709,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.36044406891,y: 5.54497861862,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.36844444275,y: 5.54498291016,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.37644481659,y: 5.54498720169,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.38444423676,y: 5.54499149323,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.3924446106,y: 5.54499578476,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.40044403076,y: 5.54500055313,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.4084444046,y: 5.54500484467,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.41644477844,y: 5.5450091362,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.42444419861,y: 5.54501342773,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.43244457245,y: 5.54501771927,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.44044399261,y: 5.5450220108,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.44844436646,y: 5.54502630234,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.4564447403,y: 5.54503059387,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.46444416046,y: 5.54503488541,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.4724445343,y: 5.54503965378,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.48044395447,y: 5.54504394531,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.48844432831,y: 5.54504823685,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.49644470215,y: 5.54505252838,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.50444412231,y: 5.54505681992,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.51244449615,y: 5.54506111145,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.52044391632,y: 5.54506540298,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.52844429016,y: 5.54506969452,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.536444664,y: 5.54507398605,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.54444408417,y: 5.54507827759,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.55244445801,y: 5.54508304596,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.56044483185,y: 5.54508733749,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.56844425201,y: 5.54509162903,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.57644462585,y: 5.54509592056,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.58444404602,y: 5.5451002121,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.59244441986,y: 5.54510450363,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.6004447937,y: 5.54510879517,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.60844421387,y: 5.5451130867,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.61644458771,y: 5.54511737823,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.62444400787,y: 5.54512214661,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.63244438171,y: 5.54512643814,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.64044475555,y: 5.54513072968,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.64844417572,y: 5.54513502121,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.65644454956,y: 5.54513931274,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.66444396973,y: 5.54514360428,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.67244434357,y: 5.54514789581,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.68044471741,y: 5.54515218735,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.68844413757,y: 5.54515647888,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.69644451141,y: 5.54516077042,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.70444393158,y: 5.54516553879,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.71244430542,y: 5.54516983032,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.72044467926,y: 5.54517412186,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.72844409943,y: 5.54517841339,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.73644447327,y: 5.54518270493,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.74444389343,y: 5.54518699646,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.75244426727,y: 5.54519128799,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.76044464111,y: 5.54519557953,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.76844406128,y: 5.54519987106,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.77644443512,y: 5.54520463943,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.78444480896,y: 5.54520893097,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.79244422913,y: 5.5452132225,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.80044460297,y: 5.54521751404,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.80844402313,y: 5.54522180557,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.81644439697,y: 5.54522609711,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.82444477081,y: 5.54523038864,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.83244419098,y: 5.54523468018,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.84044456482,y: 5.54523897171,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.84844398499,y: 5.54524326324,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.85644435883,y: 5.54524803162,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.86444473267,y: 5.54525232315,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.87244415283,y: 5.54525661469,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.88044452667,y: 5.54526090622,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.88844394684,y: 5.54526519775,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.89644432068,y: 5.54526948929,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.90444469452,y: 5.54527378082,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.91244411469,y: 5.54527807236,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.92044448853,y: 5.54528236389,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.92844390869,y: 5.54528713226,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.93644428253,y: 5.5452914238,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.94444465637,y: 5.54529571533,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.95244407654,y: 5.54530000687,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.96044445038,y: 5.5453042984,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.96844387054,y: 5.54530858994,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.97644424438,y: 5.54531288147,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.98444461823,y: 5.545317173,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 8.99244403839,y: 5.54532146454,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.00044441223,y: 5.54532575607,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.00844478607,y: 5.54533052444,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.01644420624,y: 5.54533481598,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.02444458008,y: 5.54533910751,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.03244400024,y: 5.54534339905,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.04044437408,y: 5.54534769058,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.04844474792,y: 5.54535198212,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.05644416809,y: 5.54535627365,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.06444454193,y: 5.54536056519,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.0724439621,y: 5.54536485672,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.08044433594,y: 5.54536962509,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.08844470978,y: 5.54537391663,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.09644412994,y: 5.54537820816,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.10444450378,y: 5.54538249969,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.11244392395,y: 5.54538679123,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.12044429779,y: 5.54539108276,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.12844467163,y: 5.5453953743,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.1364440918,y: 5.54539966583,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.14444446564,y: 5.54540395737,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.1524438858,y: 5.54540872574,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.16044425964,y: 5.54541301727,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.16844463348,y: 5.54541730881,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.17644405365,y: 5.54542160034,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.18444442749,y: 5.54542589188,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.19244384766,y: 5.54543018341,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.2004442215,y: 5.54543447495,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.20844459534,y: 5.54543876648,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.2164440155,y: 5.54544305801,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.22444438934,y: 5.54544734955,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.23244476318,y: 5.54545211792,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.24044418335,y: 5.54545640945,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.24844455719,y: 5.54546070099,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.25644397736,y: 5.54546499252,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.2644443512,y: 5.54546928406,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.27244472504,y: 5.54547357559,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.2804441452,y: 5.54547786713,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.28844451904,y: 5.54548215866,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.29644393921,y: 5.5454864502,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.30444431305,y: 5.54549121857,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.31244468689,y: 5.5454955101,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.32044410706,y: 5.54549980164,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.3284444809,y: 5.54550409317,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.33644390106,y: 5.5455083847,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.3444442749,y: 5.54551267624,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.35244464874,y: 5.54551696777,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.36044406891,y: 5.54552125931,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.36844444275,y: 5.54552555084,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.37644386292,y: 5.54552984238,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.38444423676,y: 5.54553461075,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.3924446106,y: 5.54553890228,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.40044403076,y: 5.54554319382,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.4084444046,y: 5.54554748535,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.41644382477,y: 5.54555177689,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.42444419861,y: 5.54555606842,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.43244457245,y: 5.54556035995,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.44044399261,y: 5.54556465149,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.44844436646,y: 5.54556894302,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.45644378662,y: 5.5455737114,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.46444416046,y: 5.54557800293,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.4724445343,y: 5.54558229446,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.48044395447,y: 5.545586586,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.48844432831,y: 5.54559087753,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.49644470215,y: 5.54559516907,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.50444412231,y: 5.5455994606,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.51244449615,y: 5.54560375214,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.52044391632,y: 5.54560804367,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.52844429016,y: 5.54561233521,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.536444664,y: 5.54561710358,theta: 0.000542756170034
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.54444408417,y: 5.54562139511,theta: 0.000542756170034
+In group: 18 and make head turn to: 0.0
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.54444408417,y: 5.54562139511,theta: 0.000534072110895
+In group: 18 and make head turn to: 0.0
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.55244445801,y: 5.54562568665,theta: 0.000534072110895
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.55244445801,y: 5.54562568665,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.56044387817,y: 5.54563426971,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.56844425201,y: 5.54564237595,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.57644462585,y: 5.54565095901,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.58444404602,y: 5.54565954208,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.59244441986,y: 5.54566812515,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.60044384003,y: 5.54567670822,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.60844421387,y: 5.54568529129,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.61644458771,y: 5.54569387436,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.62444400787,y: 5.54570245743,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.63244438171,y: 5.5457110405,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.64044380188,y: 5.54571962357,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.64844417572,y: 5.54572820663,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.65644454956,y: 5.5457367897,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.66444396973,y: 5.54574537277,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.67244434357,y: 5.545753479,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.68044376373,y: 5.54576206207,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.68844413757,y: 5.54577064514,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.69644451141,y: 5.54577922821,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.70444393158,y: 5.54578781128,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.71244430542,y: 5.54579639435,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.72044372559,y: 5.54580497742,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.72844409943,y: 5.54581356049,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.73644447327,y: 5.54582214355,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.74444389343,y: 5.54583072662,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.75244426727,y: 5.54583930969,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.76044368744,y: 5.54584789276,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.76844406128,y: 5.54585647583,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.77644443512,y: 5.54586458206,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.78444385529,y: 5.54587316513,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.79244422913,y: 5.5458817482,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.80044364929,y: 5.54589033127,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.80844402313,y: 5.54589891434,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.81644439697,y: 5.54590749741,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.82444381714,y: 5.54591608047,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.83244419098,y: 5.54592466354,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.84044361115,y: 5.54593324661,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.84844398499,y: 5.54594182968,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.85644435883,y: 5.54595041275,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.86444377899,y: 5.54595899582,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.87244415283,y: 5.54596757889,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.88044452667,y: 5.54597568512,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.88844394684,y: 5.54598426819,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.89644432068,y: 5.54599285126,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.90444374084,y: 5.54600143433,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.91244411469,y: 5.5460100174,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.92044448853,y: 5.54601860046,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.92844390869,y: 5.54602718353,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.93644428253,y: 5.5460357666,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.9444437027,y: 5.54604434967,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.95244407654,y: 5.54605293274,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.96044445038,y: 5.54606151581,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.96844387054,y: 5.54607009888,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.97644424438,y: 5.54607868195,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.98444366455,y: 5.54608678818,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 9.99244403839,y: 5.54609537125,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.0004444122,y: 5.54610395432,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.0084438324,y: 5.54611253738,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.0164442062,y: 5.54612112045,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.0244436264,y: 5.54612970352,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.0324440002,y: 5.54613828659,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.0404443741,y: 5.54614686966,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.0484437943,y: 5.54615545273,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.0564441681,y: 5.5461640358,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.0644435883,y: 5.54617261887,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.0724439621,y: 5.54618120193,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.0804443359,y: 5.546189785,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.0884437561,y: 5.54619789124,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.0964441299,y: 5.5462064743,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.1044435501,y: 5.54621505737,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.112443924,y: 5.54622364044,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.1204442978,y: 5.54623222351,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.128443718,y: 5.54624080658,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.1364440918,y: 5.54624938965,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.144443512,y: 5.54625797272,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.1524438858,y: 5.54626655579,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.1604442596,y: 5.54627513885,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.1684436798,y: 5.54628372192,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.1764440536,y: 5.54629230499,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.1844434738,y: 5.54630088806,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.1924438477,y: 5.54630899429,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.2004442215,y: 5.54631757736,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.2084436417,y: 5.54632616043,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.2164440155,y: 5.5463347435,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.2244434357,y: 5.54634332657,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.2324438095,y: 5.54635190964,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.2404441833,y: 5.54636049271,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.2484436035,y: 5.54636907578,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.2564439774,y: 5.54637765884,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.2644433975,y: 5.54638624191,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.2724437714,y: 5.54639482498,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.2804441452,y: 5.54640340805,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.2884435654,y: 5.54641199112,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.2964439392,y: 5.54642009735,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.3044433594,y: 5.54642868042,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.3124437332,y: 5.54643726349,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.3204441071,y: 5.54644584656,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.3284435272,y: 5.54645442963,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.3364439011,y: 5.5464630127,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.3444433212,y: 5.54647159576,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.3524436951,y: 5.54648017883,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.3604440689,y: 5.5464887619,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.3684434891,y: 5.54649734497,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.3764438629,y: 5.54650592804,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.3844442368,y: 5.54651451111,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.3924436569,y: 5.54652309418,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.4004440308,y: 5.54653120041,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.4084434509,y: 5.54653978348,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.4164438248,y: 5.54654836655,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.4244441986,y: 5.54655694962,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.4324436188,y: 5.54656553268,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.4404439926,y: 5.54657411575,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.4484434128,y: 5.54658269882,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.4564437866,y: 5.54659128189,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.4644441605,y: 5.54659986496,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.4724435806,y: 5.54660844803,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.4804439545,y: 5.5466170311,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.4884433746,y: 5.54662561417,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.4964437485,y: 5.54663419724,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.5044441223,y: 5.54664230347,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.5124435425,y: 5.54665088654,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.5204439163,y: 5.5466594696,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.5284433365,y: 5.54666805267,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.5364437103,y: 5.54667663574,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.5444440842,y: 5.54668521881,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.5524435043,y: 5.54669380188,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.5604438782,y: 5.54670238495,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.5684432983,y: 5.54671096802,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.5764436722,y: 5.54671955109,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.584444046,y: 5.54672813416,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.5924434662,y: 5.54673671722,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.60044384,y: 5.54674530029,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.6084432602,y: 5.54675340652,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.616443634,y: 5.54676198959,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.6244440079,y: 5.54677057266,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.632443428,y: 5.54677915573,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.6404438019,y: 5.5467877388,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.648443222,y: 5.54679632187,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.6564435959,y: 5.54680490494,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.6644439697,y: 5.54681348801,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.6724433899,y: 5.54682207108,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.6804437637,y: 5.54683065414,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.6884431839,y: 5.54683923721,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.6964435577,y: 5.54684782028,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.7044439316,y: 5.54685640335,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.7124433517,y: 5.54686450958,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.7204437256,y: 5.54687309265,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.7284431458,y: 5.54688167572,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.7364435196,y: 5.54689025879,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.7444438934,y: 5.54689884186,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.7524433136,y: 5.54690742493,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.7604436874,y: 5.546916008,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.7684431076,y: 5.54692459106,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.7764434814,y: 5.54693317413,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.7844438553,y: 5.5469417572,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.7924432755,y: 5.54695034027,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.8004436493,y: 5.54695892334,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.8084430695,y: 5.54696750641,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.8164434433,y: 5.54697561264,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.8244438171,y: 5.54698419571,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.8324432373,y: 5.54699277878,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.8404436111,y: 5.54700136185,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.8484430313,y: 5.54700994492,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+
+/data_process_18847_1481004087486 heard currentPos
+x: 10.8564434052,y: 5.54701852798,theta: 0.00106828310527
+In group: 2 and make head turn to: 0.0339222615289
+
+

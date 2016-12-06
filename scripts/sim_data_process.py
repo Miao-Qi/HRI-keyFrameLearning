@@ -27,6 +27,38 @@ last_state = 0
 previous_state = dict((el,0) for el in index)
 f = open('data_process-' + str(time.time()) + '.txt', 'w+')
 
+color_iter = itertools.cycle(['navy', 'c', 'cornflowerblue', 'gold',
+                              'darkorange'])
+
+def plot_results(X, Y, means, covariances, index, title):
+    splot = plt.subplot(5, 1, 1 + index)
+    for i, (mean, covar, color) in enumerate(zip(
+            means, covariances, color_iter)):
+        v, w = linalg.eigh(covar)
+        v = 2. * np.sqrt(2.) * np.sqrt(v)
+        u = w[0] / linalg.norm(w[0])
+        # as the DP will not use every component it has access to
+        # unless it needs it, we shouldn't plot the redundant
+        # components.
+        if not np.any(Y == i):
+            continue
+        plt.scatter(X[Y == i, 0], X[Y == i, 1], .8, color=color)
+
+        # Plot an ellipse to show the Gaussian component
+        angle = np.arctan(u[1] / u[0])
+        angle = 180. * angle / np.pi  # convert to degrees
+        ell = mpl.patches.Ellipse(mean, v[0], v[1], 180. + angle, color=color)
+        ell.set_clip_box(splot.bbox)
+        ell.set_alpha(0.5)
+        splot.add_artist(ell)
+
+    plt.xlim(-6., 4. * np.pi - 6.)
+    plt.ylim(-5., 5.)
+    plt.title(title)
+    plt.xticks(())
+    plt.yticks(())
+
+
 def init_model():
     global index
     global group_counter
@@ -40,7 +72,7 @@ def init_model():
     group_theta = dict((el,0) for el in index)
 
     # data preprocess
-    my_data = genfromtxt('path-2016-12-06_00:11:39.txt', delimiter=',')
+    my_data = genfromtxt('path-2016-12-06_16:37:41.txt', delimiter=',')
     dataSet = np.array(my_data)
     pos, timestamps, dirc = np.split(my_data, [2, 3], axis = 1)
 
@@ -56,8 +88,11 @@ def init_model():
     kmeans.fit(pos)
 
     # fit a Gaussian Mixture Model
-    gmm_model.set_params(n_components = k, means_init=kmeans.cluster_centers_)
+    # gmm_model.set_params(n_components = k, means_init=kmeans.cluster_centers_)
+    # Defaul init_params: kmeans
+    gmm_model.set_params(n_components = k)
     gmm_model.fit(pos)
+    plot_results(pos, gmm.predict(pos), gmm.means_, gmm.covariances_, 0, 'Expectation-maximization')
 
     # cluster the origin data to get group orientation
     clustring_result = gmm_model.predict(pos)

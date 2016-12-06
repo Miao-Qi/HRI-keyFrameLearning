@@ -2,6 +2,7 @@
 
 import rospy
 import math
+import time 
 import sys
 
 from std_msgs.msg      import String
@@ -26,11 +27,13 @@ from turtlesim.msg     import Pose
 # ----------------------------------------------------------------------
 rospy.init_node('keyframe_gen') 
 print('keyframe_gen')
+init_time = 0
 
 # ----------------------------------------------------------------------
 # Callback functions 
 # ----------------------------------------------------------------------
 def PosCallback (msg) : 
+  global init_time 
   global ReadInOdometry 
   # TODO
   # For turtlesim simulation -------------------------------------------
@@ -41,12 +44,12 @@ def PosCallback (msg) :
   # ReadInOdometry.twist.twist.linear.y = msg.linear_velocity * math.sin(msg.theta)
   # For Shpero ---------------------------------------------------------
   ReadInOdometry = msg
+  ReadInOdometry.twist.twist.angular.x = time.time() - init_time
 
 def CmdCallback (msg) : 
   global Pub 
   if msg.data == 'keep frame' : 
     print('Frame kept: \n')
-    # print(str(ReadInOdometry.pose.pose.position.x) + ', ' + str(ReadInOdometry.pose.pose.y) + '\n') 
     print(ReadInOdometry) 
     print('\n') 
     Pub.publish(ReadInOdometry)

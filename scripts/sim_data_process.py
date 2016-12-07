@@ -3,9 +3,14 @@
 import rospy
 import sys
 import math
-import numpy                 as np
 import time
+import itertools
 
+import numpy                 as np
+import matplotlib.pyplot     as plt
+import matplotlib            as mpl
+
+from scipy                   import linalg
 from numpy                   import genfromtxt
 from sklearn.cluster         import KMeans
 from sklearn                 import mixture
@@ -20,18 +25,22 @@ index = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,
 group_counter = dict((el,0) for el in index)
 group_theta = dict((el,0) for el in index)
 group_ts = dict((el,0) for el in index)
+group_theta_ts_max = dict((el,0) for el in index)
+group_ts_max = dict((el,-9999) for el in index)
 kmeans = KMeans(random_state=0)
 gmm_model = mixture.GaussianMixture(covariance_type='full')
 last_group = 0
 last_state = 0
 previous_state = dict((el,0) for el in index)
 f = open('data_process-' + str(time.time()) + '.txt', 'w+')
+last_x = -999999
+last_y = -999999
 
 color_iter = itertools.cycle(['navy', 'c', 'cornflowerblue', 'gold',
                               'darkorange'])
 
 def plot_results(X, Y, means, covariances, index, title):
-    splot = plt.subplot(5, 1, 1 + index)
+    splot = plt.subplot(1, 1, 1 + index)
     for i, (mean, covar, color) in enumerate(zip(
             means, covariances, color_iter)):
         v, w = linalg.eigh(covar)
@@ -52,8 +61,8 @@ def plot_results(X, Y, means, covariances, index, title):
         ell.set_alpha(0.5)
         splot.add_artist(ell)
 
-    plt.xlim(-6., 4. * np.pi - 6.)
-    plt.ylim(-5., 5.)
+    plt.xlim(0., 10.)
+    plt.ylim(0., 16.)
     plt.title(title)
     plt.xticks(())
     plt.yticks(())
@@ -65,6 +74,8 @@ def init_model():
     global group_theta
     global kmeans
     global gmm_model
+    global last_x
+    global last_y
 
     # result storage
     index = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32]
@@ -72,9 +83,18 @@ def init_model():
     group_theta = dict((el,0) for el in index)
 
     # data preprocess
-    my_data = genfromtxt('path-2016-12-06_16:37:41.txt', delimiter=',')
+    my_data = genfromtxt('path-2016-12-07_11:36:12.txt', delimiter=',')
     dataSet = np.array(my_data)
     pos, timestamps, dirc = np.split(my_data, [2, 3], axis = 1)
+
+    m, n = pos.shape
+    last = pos[m - 1,[0,1]] 
+    last_x = last.item(0)
+    last_y = last.item(1)
+    # get the average timestamp for each cluster
+    f.write("last position info: \n") 
+    f.write("postion in file: " + str(last) + "\n") 
+    f.write("last_x: " + str(last_x) + "last_y: " + str(last_y) + "\n") 
 
     # TODO: cross-validation
     # issue: unsupervised learning -> how to get label
@@ -92,10 +112,13 @@ def init_model():
     # Defaul init_params: kmeans
     gmm_model.set_params(n_components = k)
     gmm_model.fit(pos)
-    plot_results(pos, gmm.predict(pos), gmm.means_, gmm.covariances_, 0, 'Expectation-maximization')
 
     # cluster the origin data to get group orientation
     clustring_result = gmm_model.predict(pos)
+
+    # plot result
+    plot_results(pos, clustring_result, gmm_model.means_, gmm_model.covariances_, 0, 'Expectation-maximization')
+    plt.show()
 
     # get timestamp and direction for each cluster
     index_counter = 0
@@ -106,7 +129,11 @@ def init_model():
         group_counter[group_number] = group_counter[group_number] + 1
         group_theta[group_number] = group_theta[group_number] + dirc.item(index_counter)
         group_ts[group_number] = group_ts[group_number] + timestamps.item(index_counter)
+        if group_ts_max[group_number] < timestamps.item(index_counter):
+            group_theta_ts_max[group_number] = dirc.item(index_counter)
+            group_ts_max[group_number] = timestamps.item(index_counter)
         index_counter = index_counter + 1
+
 
     # get the average timestamp for each cluster
     f.write("clustering info: \n") 
@@ -131,6 +158,8 @@ def init_model():
             value = value
         else:
             value = value / group_counter[key]
+            if abs(group_theta_ts_max[key] - value) > 0.3:
+                value = group_theta_ts_max[key]
         group_theta[key] = value
         f.write("cluster theta: " + str(value) + "\n")
     f.write("\n")
@@ -143,6 +172,8 @@ def myCallback(data):
     global last_state
     global last_group
     global pub
+    global last_x
+    global last_y
 
     PosX = data.x
     PosY = data.y
@@ -155,7 +186,6 @@ def myCallback(data):
     if last_group == 0:
         last_ts = 0
     # choose group with timestamp checking
-    # TODO: improve state transit
     if new_ts < last_ts:
         pos_group = last_group
     else:
@@ -164,30 +194,34 @@ def myCallback(data):
     # get new target theta
     new_theta = group_theta[pos_group]
 
-    newTwist = createTwist(0.1, new_theta - data.theta)
+    newTwist = createTwist(0.01, new_theta - data.theta)
 
-    # TODO: improve in-state control
-    # easy-fix if the robot support immediate direction change
     # in-state checking
     if last_state == pos_group:
         newTwist = createTwist(0.5, 0)
     else:
-        if abs(new_theta - data.theta) < 0.1:
+        if abs(new_theta - data.theta) < 0.02:
             last_state = pos_group
+
+    distance = (data.x - last_x) * (data.x - last_x) + (data.y - last_y) * (data.y - last_y)
+    if distance < 0.1:
+        newTwist = createTwist(0.0, 0.0)
 
     print ("Publish new twist")    
     pub.publish(newTwist)
 
-    # TODO: add stop point
-
     print (rospy.get_caller_id() + ' heard currentPos' + "\n")
     print (data)
     print ("\n\n")
+    print ('Destination position: (' + str(last_x) + ', ' + str(last_y) +")\n" )
+    print ('Distance to Destination: ' + str(distance) +"\n" )
     print ("In group: " + str(pos_group) + ' and make head turn to: ' + str(new_theta) + "\n")
     print ("\n\n")
 
     f.write(rospy.get_caller_id() + ' heard currentPos' + "\n")
     f.write('x: ' + str(data.x) + ',' + 'y: ' + str(data.y) + ',' + 'theta: ' +  str(data.theta) +"\n" )
+    f.write('Destination positino: (' + str(last_x) + ', ' + str(last_y) +")\n" )
+    f.write('Distance to Destination: ' + str(distance) +"\n" )
     f.write("In group: " + str(pos_group) + ' and make head turn to: ' + str(new_theta) + "\n")
     f.write("\n")
     f.write("\n")

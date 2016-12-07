@@ -20,6 +20,10 @@ from nav_msgs.msg            import Odometry
 index = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32]
 group_counter = dict((el,0) for el in index)
 group_theta = dict((el,0) for el in index)
+#group_theta_ts_min = dict((el,0) for el in index)
+group_theta_ts_max = dict((el,0) for el in index)
+#group_ts_min = dict((el,9999) for el in index)
+group_ts_max = dict((el,-9999) for el in index)
 group_ts = dict((el,0) for el in index)
 kmeans = KMeans(random_state=0)
 gmm_model = mixture.GaussianMixture(covariance_type='full')
@@ -90,14 +94,20 @@ plt.show()
 
 # get timestamp and direction for each cluster
 index_counter = 0
-
 # sum up all the timestamps/directions inside one cluster
 for x in np.nditer(clustring_result):
     group_number = x.item(0)
     group_counter[group_number] = group_counter[group_number] + 1
     group_theta[group_number] = group_theta[group_number] + dirc.item(index_counter)
     group_ts[group_number] = group_ts[group_number] + timestamps.item(index_counter)
+    if group_ts_max[group_number] < timestamps.item(index_counter):
+        group_theta_ts_max[group_number] = dirc.item(index_counter)
+        group_ts_max[group_number] = timestamps.item(index_counter)
+    #if group_ts_min[group_number] > timestamps.item(index_counter):
+        #group_theta_ts_min[group_number] = dirc.item(index_counter)
+        #group_ts_min[group_number] = timestamps.item(index_counter)
     index_counter = index_counter + 1
+
 
 # get the average timestamp for each cluster
 f.write("clustering info: \n") 
@@ -122,6 +132,8 @@ for key, value in group_theta.iteritems():
         value = value
     else:
         value = value / group_counter[key]
+        if abs(group_theta_ts_max[key] - value) > 0.3:
+            value = group_theta_ts_max[key]
     group_theta[key] = value
     f.write("cluster theta: " + str(value) + "\n")
 f.write("\n")

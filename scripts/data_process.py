@@ -4,22 +4,22 @@ import rospy
 import sys
 import math
 import time
-import numpy                 as np
+import numpy                 as     np
 
-from numpy                   import genfromtxt
-from sklearn.cluster         import KMeans
-from sklearn                 import mixture
-from geometry_msgs.msg       import Twist
-from turtlesim.msg           import Pose
-from std_msgs.msg            import String
-from nav_msgs.msg            import Odometry
+from   numpy                 import genfromtxt
+from   sklearn.cluster       import KMeans
+from   sklearn               import mixture
+from   geometry_msgs.msg     import Twist
+from   turtlesim.msg         import Pose
+from   std_msgs.msg          import String
+from   nav_msgs.msg          import Odometry
 
 # ----------------------------------------------------------------------
 # Configuration Constants 
 # ----------------------------------------------------------------------
 # TODO
 # Sphero speed 
-SPD = 50 
+SPD = 75 
 
 # TODO
 # For simulation ---------------------------------------------------
@@ -38,6 +38,20 @@ last_state = 0
 previous_state = dict((el,0) for el in index)
 f = open('./data_file/data_process-' + str(time.time()) + '.txt', 'w+')
 
+def createTwist(lx, ly): 
+    newTwist = Twist()
+    newTwist.linear.x = lx
+    newTwist.linear.y = ly
+    newTwist.linear.z = 0
+    newTwist.angular.x = 0
+    newTwist.angular.y = 0
+    newTwist.angular.z = 0
+    return newTwist
+
+
+curTheta = 0
+curTwist = createTwist(SPD * math.cos(curTheta), SPD * math.sin(curTheta))  
+
 def init_model():
     global index
     global group_counter
@@ -51,7 +65,7 @@ def init_model():
     group_theta = dict((el,0) for el in index)
 
     # data preprocess
-    my_data = genfromtxt('./data_file/path-2016-12-06_10:18:46.txt', delimiter=',')
+    my_data = genfromtxt('./data_file/path-2016-12-06_13:18:51.txt', delimiter=',')
 
     dataSet = np.array(my_data)
     pos, timestamps, dirc = np.split(my_data, [2, 3], axis = 1)
@@ -122,6 +136,8 @@ def myCallback(data):
     global last_state
     global last_group
     global pub
+    global curTheta
+    global curTwist
 
     # TODO
     # For simulation
@@ -134,6 +150,7 @@ def myCallback(data):
     PosT = math.atan2(data.twist.twist.linear.y, data.twist.twist.linear.x)
 
     pos_group = gmm_model.predict([PosX, PosY]).reshape(1, -1).item(0)
+    print(pos_group) 
     new_ts = group_ts[pos_group]
     last_ts = group_ts[last_group]
 
@@ -149,43 +166,35 @@ def myCallback(data):
     # get new target theta
     new_theta = group_theta[pos_group]
 
-    newTwist = createTwist(SPD * math.cos(new_theta), SPD * math.sin(new_theta))  
+    curTheta = new_theta
+    curTwist = createTwist(SPD * math.cos(curTheta), SPD * math.sin(curTheta))  
+    # curTwist = createTwist(0, 0) 
 
     # TODO: improve in-state control
     # easy-fix if the robot support immediate direction change
     # in-state checking
-    if last_state == pos_group:
-        newTwist = createTwist(SPD * math.cos(PosT), SPD * math.sin(PosT))  
-    else:
-        if abs(new_theta - PosT) < 0.1:
-            last_state = pos_group
+    # if last_state == pos_group:
+    #     curTwist = createTwist(SPD * math.cos(PosT), SPD * math.sin(PosT))  
+    # else:
+    #     if abs(new_theta - PosT) < 0.1:
+    #         last_state = pos_group
 
     print ("Publish new twist")    
-    pub.publish(newTwist)
+    pub.publish(curTwist)
 
     # TODO: add stop point
 
-    print (rospy.get_caller_id() + ' heard currentPos' + "\n")
-    print (data)
-    print ("\n\n")
-    print ("In group: " + str(pos_group) + ' and make head turn to: ' + str(new_theta) + "\n")
-    print ("\n\n")
+    # print (rospy.get_caller_id() + ' heard currentPos' + "\n")
+    # print (data)
+    # print ("\n\n")
+    # print ("In group: " + str(pos_group) + ' and make head turn to: ' + str(new_theta) + "\n")
+    # print ("\n\n")
 
     f.write(rospy.get_caller_id() + ' heard currentPos' + "\n")
     f.write('x: ' + str(PosX) + ',' + 'y: ' + str(PosY) + ',' + 'theta: ' +  str(PosT) +"\n" )
     f.write("In group: " + str(pos_group) + ' and make head turn to: ' + str(new_theta) + "\n")
     f.write("\n")
     f.write("\n")
-
-def createTwist(lx, ly): 
-    newTwist = Twist()
-    newTwist.linear.x = lx
-    newTwist.linear.y = ly
-    newTwist.linear.z = 0
-    newTwist.angular.x = 0
-    newTwist.angular.y = 0
-    newTwist.angular.z = 0
-    return newTwist
 
 def DataProcess():
     init_model()
@@ -197,9 +206,10 @@ def DataProcess():
     # For Sphero 
     rospy.Subscriber('odom', Odometry, myCallback)
 
-    rate = rospy.Rate(10)
-    while not rospy.is_shutdown():
-        rate.sleep()
+    # rate = rospy.Rate(10)
+    # while not rospy.is_shutdown():
+    #     rate.sleep()
+    rospy.spin()
 
 if __name__ == '__main__':
     DataProcess()

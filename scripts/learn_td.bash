@@ -11,7 +11,7 @@
 # gnome-terminal -e 'rosrun sphero_node sphero.py' &
 # sleep 10
 
-gnome-terminal -e 'rqt_graph' &
+# gnome-terminal -e 'rqt_graph' &
 
 gnome-terminal -e './t_controller.py     ' & 
 gnome-terminal -e './pose_recorder.py    ' &

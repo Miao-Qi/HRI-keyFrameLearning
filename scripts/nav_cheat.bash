@@ -13,4 +13,4 @@
 
 # gnome-terminal -e 'rqt_graph' &
 
-gnome-terminal -e './data_process.py  ' & 
+gnome-terminal -e './data_proc_cheat.py' & 

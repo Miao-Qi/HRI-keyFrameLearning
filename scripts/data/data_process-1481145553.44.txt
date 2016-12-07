@@ -1,0 +1,3 @@
+last position info: 
+postion in file: [ 2.52  8.48]
+last_x: 2.52last_y: 8.48

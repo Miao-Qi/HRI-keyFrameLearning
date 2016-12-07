@@ -18,7 +18,7 @@ from   nav_msgs.msg          import Odometry
 # Configuration Constants 
 # ----------------------------------------------------------------------
 # Sphero speed 
-SPD = 75 
+SPD = 60 
 # Position error threshold 
 THR = 0.1
 
@@ -75,8 +75,8 @@ def init_model():
     global dirc 
 
     # data preprocess
-    # my_data = genfromtxt('./data_file/path-2016-12-06_19:10:35.txt', delimiter=',')
-    my_data = genfromtxt('./data_file/frames.txt', delimiter=',')
+    # my_data = genfromtxt('./data/path-2016-12-06_19:10:35.txt', delimiter=',')
+    my_data = genfromtxt('./data/frames.txt', delimiter=',')
     dataSet = np.array(my_data)
     pos, timestamps, dirc = np.split(my_data, [2, 3], axis = 1)
 

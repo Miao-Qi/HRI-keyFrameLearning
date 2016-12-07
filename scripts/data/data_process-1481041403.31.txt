@@ -1,0 +1,169 @@
+clustering info: 
+cluster timestamp: 
+cluster number: 0
+# of elements in cluster: 240
+cluster timestamp: 1481041129.34
+cluster number: 1
+# of elements in cluster: 98
+cluster timestamp: 1481041150.07
+cluster number: 2
+# of elements in cluster: 150
+cluster timestamp: 1481041167.07
+cluster number: 3
+# of elements in cluster: 132
+cluster timestamp: 1481041171.07
+cluster number: 4
+# of elements in cluster: 168
+cluster timestamp: 1481041136.87
+cluster number: 5
+# of elements in cluster: 169
+cluster timestamp: 1481041155.74
+cluster number: 6
+# of elements in cluster: 97
+cluster timestamp: 1481041163.81
+cluster number: 7
+# of elements in cluster: 244
+cluster timestamp: 1481041150.51
+cluster number: 8
+# of elements in cluster: 196
+cluster timestamp: 1481041140.7
+cluster number: 9
+# of elements in cluster: 60
+cluster timestamp: 1481041169.22
+cluster number: 10
+# of elements in cluster: 99
+cluster timestamp: 1481041143.23
+cluster number: 11
+# of elements in cluster: 168
+cluster timestamp: 1481041174.09
+cluster number: 12
+# of elements in cluster: 121
+cluster timestamp: 1481041145.88
+cluster number: 13
+# of elements in cluster: 68
+cluster timestamp: 1481041157.02
+cluster number: 14
+# of elements in cluster: 176
+cluster timestamp: 1481041133.74
+cluster number: 15
+# of elements in cluster: 254
+cluster timestamp: 1481041161.39
+cluster number: 16
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 17
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 18
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 19
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 20
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 21
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 22
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 23
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 24
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 25
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 26
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 27
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 28
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 29
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 30
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 31
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 32
+# of elements in cluster: 0
+cluster timestamp: 0
+
+
+cluster theta: 
+cluster number: 0
+# of elements in cluster: 240
+cluster theta: 0.01308996939
+cluster number: 1
+# of elements in cluster: 98
+cluster theta: 0.416741882619
+cluster number: 2
+# of elements in cluster: 150
+cluster theta: 3.14159265359
+cluster number: 3
+# of elements in cluster: 132
+cluster theta: 3.14159265359
+cluster number: 4
+# of elements in cluster: 168
+cluster theta: 0.916297857297
+cluster number: 5
+# of elements in cluster: 169
+cluster theta: 1.56150167397
+cluster number: 6
+# of elements in cluster: 97
+cluster theta: 2.91487978168
+cluster number: 7
+# of elements in cluster: 244
+cluster theta: 0.733896644486
+cluster number: 8
+# of elements in cluster: 196
+cluster theta: 1.44256805522
+cluster number: 9
+# of elements in cluster: 60
+cluster theta: 3.14159265359
+cluster number: 10
+# of elements in cluster: 99
+cluster theta: 0.951997773815
+cluster number: 11
+# of elements in cluster: 168
+cluster theta: 0.168299606442
+cluster number: 12
+# of elements in cluster: 121
+cluster theta: 0.285599332145
+cluster number: 13
+# of elements in cluster: 68
+cluster theta: 1.38599675894
+cluster number: 14
+# of elements in cluster: 176
+cluster theta: 0.249899415626
+cluster number: 15
+# of elements in cluster: 254
+cluster theta: 0.235001025269
+cluster number: 16
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 17
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 18
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 19
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 20
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 21
+# of ele

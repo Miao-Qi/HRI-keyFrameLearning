@@ -11,10 +11,7 @@ from nav_msgs.msg  import Odometry
 # ----------------------------------------------------------------------
 # Constant configs
 # ----------------------------------------------------------------------
-# For nav_cheat.bash
-# SampleRate = 50
-# For navigation.bash
-SampleRate = 0
+SampleRate = 50
 
 counter = 0
 init_time = 0

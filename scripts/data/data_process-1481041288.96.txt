@@ -1,0 +1,673 @@
+clustering info: 
+cluster timestamp: 
+cluster number: 0
+# of elements in cluster: 240
+cluster timestamp: 1481041129.34
+cluster number: 1
+# of elements in cluster: 182
+cluster timestamp: 1481041149.03
+cluster number: 2
+# of elements in cluster: 108
+cluster timestamp: 1481041169.62
+cluster number: 3
+# of elements in cluster: 81
+cluster timestamp: 1481041171.47
+cluster number: 4
+# of elements in cluster: 11
+cluster timestamp: 1481041137.97
+cluster number: 5
+# of elements in cluster: 243
+cluster timestamp: 1481041156.05
+cluster number: 6
+# of elements in cluster: 164
+cluster timestamp: 1481041166.74
+cluster number: 7
+# of elements in cluster: 141
+cluster timestamp: 1481041152.17
+cluster number: 8
+# of elements in cluster: 19
+cluster timestamp: 1481041140.88
+cluster number: 9
+# of elements in cluster: 11
+cluster timestamp: 1481041169.6
+cluster number: 10
+# of elements in cluster: 402
+cluster timestamp: 1481041143.02
+cluster number: 11
+# of elements in cluster: 168
+cluster timestamp: 1481041174.09
+cluster number: 12
+# of elements in cluster: 170
+cluster timestamp: 1481041136.87
+cluster number: 13
+# of elements in cluster: 11
+cluster timestamp: 1481041155.76
+cluster number: 14
+# of elements in cluster: 166
+cluster timestamp: 1481041133.44
+cluster number: 15
+# of elements in cluster: 323
+cluster timestamp: 1481041161.94
+cluster number: 16
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 17
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 18
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 19
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 20
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 21
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 22
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 23
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 24
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 25
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 26
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 27
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 28
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 29
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 30
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 31
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 32
+# of elements in cluster: 0
+cluster timestamp: 0
+
+
+cluster theta: 
+cluster number: 0
+# of elements in cluster: 240
+cluster theta: 0.01308996939
+cluster number: 1
+# of elements in cluster: 182
+cluster theta: 0.241660973353
+cluster number: 2
+# of elements in cluster: 108
+cluster theta: 3.14159265359
+cluster number: 3
+# of elements in cluster: 81
+cluster theta: 3.14159265359
+cluster number: 4
+# of elements in cluster: 11
+cluster theta: 1.99919532501
+cluster number: 5
+# of elements in cluster: 243
+cluster theta: 1.57726050921
+cluster number: 6
+# of elements in cluster: 164
+cluster theta: 3.14159265359
+cluster number: 7
+# of elements in cluster: 141
+cluster theta: 1.00263595327
+cluster number: 8
+# of elements in cluster: 19
+cluster theta: 0.992081890607
+cluster number: 9
+# of elements in cluster: 11
+cluster theta: 3.14159265359
+cluster number: 10
+# of elements in cluster: 402
+cluster theta: 1.0081230157
+cluster number: 11
+# of elements in cluster: 168
+cluster theta: 0.168299606442
+cluster number: 12
+# of elements in cluster: 170
+cluster theta: 0.942477796077
+cluster number: 13
+# of elements in cluster: 11
+cluster theta: 1.42799666072
+cluster number: 14
+# of elements in cluster: 166
+cluster theta: 0.0946262847467
+cluster number: 15
+# of elements in cluster: 323
+cluster theta: 0.787829736659
+cluster number: 16
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 17
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 18
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 19
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 20
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 21
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 22
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 23
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 24
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 25
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 26
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 27
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 28
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 29
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 30
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 31
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 32
+# of elements in cluster: 0
+cluster theta: 0
+
+
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_14244_1481041289246 heard currentPos
+/data_process_1424

@@ -23,8 +23,8 @@ from nav_msgs.msg      import Odometry
 init_time = 0
 ts = time.time()
 st = datetime.datetime.fromtimestamp(ts).strftime('%Y-%m-%d_%H:%M:%S')
-# f = open('./data_file/path-' + str(st) + '.txt', 'w+')
-f = open('./data_file/frames.txt', 'w+')
+# f = open('./data/path-' + str(st) + '.txt', 'w+')
+f = open('./data/frames.txt', 'w+')
 
 # ----------------------------------------------------------------------
 # Callback functions 
@@ -41,8 +41,8 @@ def Callback (msg) :
   # Write to file
   newData = str(curPosX) + ',' + str(curPosY) + ',' + str(msg.twist.twist.angular.x) + ',' + str(curDirc)
   print(newData)
-  # f = open('./data_file/path-' + str(st) + '.txt', 'a')
-  f = open('./data_file/frames.txt', 'a')
+  # f = open('./data/path-' + str(st) + '.txt', 'a')
+  f = open('./data/frames.txt', 'a')
   f.write(newData)
   f.write("\n")
   print("Write to file: \n") 

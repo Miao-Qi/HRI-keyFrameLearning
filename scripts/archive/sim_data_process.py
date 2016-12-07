@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python
 
 import rospy
 import sys
@@ -19,15 +19,7 @@ from turtlesim.msg           import Pose
 from std_msgs.msg            import String
 from nav_msgs.msg            import Odometry
 
-# ----------------------------------------------------------------------
-# Configuration Constants 
-# ----------------------------------------------------------------------
-# Sphero speed 
-SPD = 60 
-# Position error threshold 
-THR = 0.1
-
-pub = rospy.Publisher('cmd_vel', Twist, queue_size=10)
+pub = rospy.Publisher('/turtle1/cmd_vel', Twist, queue_size=10)
 
 index = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32]
 group_counter = dict((el,0) for el in index)
@@ -40,17 +32,7 @@ gmm_model = mixture.GaussianMixture(covariance_type='full')
 last_group = 0
 last_state = 0
 previous_state = dict((el,0) for el in index)
-f = open('./data/data_process-' + str(time.time()) + '.txt', 'w+')
-
-curTheta = 0
-curTwist = Twist()  
-
-autoPositioning = True
-
-pos = []
-timestamps = [] 
-dirc = []
-
+f = open('data_process-' + str(time.time()) + '.txt', 'w+')
 last_x = -999999
 last_y = -999999
 
@@ -85,36 +67,6 @@ def plot_results(X, Y, means, covariances, index, title):
     plt.xticks(())
     plt.yticks(())
 
-# ----------------------------------------------------------------------
-# Helper functions
-# ----------------------------------------------------------------------
-def createTwist(lx, ly): 
-    newTwist = Twist()
-    newTwist.linear.x = lx
-    newTwist.linear.y = ly
-    newTwist.linear.z = 0
-    newTwist.angular.x = 0
-    newTwist.angular.y = 0
-    newTwist.angular.z = 0
-    return newTwist
-
-def CalcHeading (src, dst) : 
-  height = dst[1] - src[1] 
-  base   = dst[0] - src[0] 
-
-  return math.atan2(height, base) 
-
-def IsCloseEnough (src, dst) : 
-  global THR
-  height = dst[1] - src[1] 
-  base   = dst[0] - src[0] 
-  dist   = math.sqrt(math.pow(height, 2) + math.pow(base, 2))
-
-  return (dist < THR) 
-
-# ----------------------------------------------------------------------
-# Callback functions
-# ----------------------------------------------------------------------
 
 def init_model():
     global index
@@ -122,9 +74,6 @@ def init_model():
     global group_theta
     global kmeans
     global gmm_model
-    global pos 
-    global timestamps 
-    global dirc 
     global last_x
     global last_y
 
@@ -134,8 +83,7 @@ def init_model():
     group_theta = dict((el,0) for el in index)
 
     # data preprocess
-    my_data = genfromtxt('./data/frames.txt', delimiter=',')
-
+    my_data = genfromtxt('path-2016-12-07_11:36:12.txt', delimiter=',')
     dataSet = np.array(my_data)
     pos, timestamps, dirc = np.split(my_data, [2, 3], axis = 1)
 
@@ -186,6 +134,7 @@ def init_model():
             group_ts_max[group_number] = timestamps.item(index_counter)
         index_counter = index_counter + 1
 
+
     # get the average timestamp for each cluster
     f.write("clustering info: \n") 
     f.write("cluster timestamp: \n") 
@@ -196,8 +145,6 @@ def init_model():
             value = value
         else:
             value = value / group_counter[key]
-            if abs(group_theta_ts_max[key] - value) > 0.3:
-                value = group_theta_ts_max[key]
         group_ts[key] = value
         f.write("cluster timestamp: " + str(value) + "\n")
 
@@ -211,6 +158,8 @@ def init_model():
             value = value
         else:
             value = value / group_counter[key]
+            if abs(group_theta_ts_max[key] - value) > 0.3:
+                value = group_theta_ts_max[key]
         group_theta[key] = value
         f.write("cluster theta: " + str(value) + "\n")
     f.write("\n")
@@ -219,41 +168,18 @@ def init_model():
 def myCallback(data):
     global SPD
     global group_theta
-    global group_ts
     global gmm_model
     global last_state
     global last_group
     global pub
-    global curTheta
-    global curTwist
-    global autoPositioning
     global last_x
     global last_y
 
-    # For Sphero 
-    PosX = data.pose.pose.position.x
-    PosY = data.pose.pose.position.y
-    PosT = math.atan2(data.twist.twist.linear.y, data.twist.twist.linear.x)
-
-    # Initial positioning 
-    if autoPositioning : 
-      print ( "Initial positioning ... \n" ) 
-      if ( not IsCloseEnough([PosX, PosY], [pos[0][0], pos[0][1]]) ) : 
-        print ( "Current position: " + str(PosX) + ", " + str(PosY) + "\n" ) 
-        print ( "Heading position: " + str(pos[0][0]) + ", " + str(pos[0][1]) + "\n" ) 
-        curTheta = CalcHeading( [PosX, PosY], [pos[0][0], pos[0][1]] ) 
-        curTwist = createTwist( SPD * math.cos(curTheta), SPD * math.sin(curTheta) )  
-        pub.publish( curTwist )
-        return 
-      else : 
-        print ( "Initial positioning complete \n") 
-        pub.publish(createTwist(0, 0)) 
-        rospy.sleep(1) 
-        autoPositioning = False 
-        return 
+    PosX = data.x
+    PosY = data.y
+    PosT = data.theta
 
     pos_group = gmm_model.predict([PosX, PosY]).reshape(1, -1).item(0)
-    print(pos_group) 
     new_ts = group_ts[pos_group]
     last_ts = group_ts[last_group]
 
@@ -268,47 +194,58 @@ def myCallback(data):
     # get new target theta
     new_theta = group_theta[pos_group]
 
-    curTheta = new_theta
-    curTwist = createTwist(SPD * math.cos(curTheta), SPD * math.sin(curTheta))  
+    newTwist = createTwist(0.01, new_theta - data.theta)
 
-    distance = (PosX - last_x) * (PosX - last_x) + (PosY - last_y) * (PosY - last_y)
+    # in-state checking
+    if last_state == pos_group:
+        newTwist = createTwist(0.5, 0)
+    else:
+        if abs(new_theta - data.theta) < 0.02:
+            last_state = pos_group
+
+    distance = (data.x - last_x) * (data.x - last_x) + (data.y - last_y) * (data.y - last_y)
     if distance < 0.1:
         newTwist = createTwist(0.0, 0.0)
 
-    # curTwist = createTwist(0, 0) 
-
-    # in-state checking
-    # if last_state == pos_group:
-    #     curTwist = createTwist(SPD * math.cos(PosT), SPD * math.sin(PosT))  
-    # else:
-    #     if abs(new_theta - PosT) < 0.1:
-    #         last_state = pos_group
-
     print ("Publish new twist")    
-    pub.publish(curTwist)
+    pub.publish(newTwist)
 
-    # print (rospy.get_caller_id() + ' heard currentPos' + "\n")
-    # print (data)
-    # print ("\n\n")
-    # print ("In group: " + str(pos_group) + ' and make head turn to: ' + str(new_theta) + "\n")
-    # print ("\n\n")
+    print (rospy.get_caller_id() + ' heard currentPos' + "\n")
+    print (data)
+    print ("\n\n")
+    print ('Destination position: (' + str(last_x) + ', ' + str(last_y) +")\n" )
+    print ('Distance to Destination: ' + str(distance) +"\n" )
+    print ("In group: " + str(pos_group) + ' and make head turn to: ' + str(new_theta) + "\n")
+    print ("\n\n")
 
     f.write(rospy.get_caller_id() + ' heard currentPos' + "\n")
-    f.write('x: ' + str(PosX) + ',' + 'y: ' + str(PosY) + ',' + 'theta: ' +  str(PosT) +"\n" )
-    f.write('Destination position: (' + str(last_x) + ', ' + str(last_y) +")\n" )
+    f.write('x: ' + str(data.x) + ',' + 'y: ' + str(data.y) + ',' + 'theta: ' +  str(data.theta) +"\n" )
+    f.write('Destination positino: (' + str(last_x) + ', ' + str(last_y) +")\n" )
     f.write('Distance to Destination: ' + str(distance) +"\n" )
     f.write("In group: " + str(pos_group) + ' and make head turn to: ' + str(new_theta) + "\n")
     f.write("\n")
     f.write("\n")
+ 
+def createTwist(lx, az): 
+    newTwist = Twist()
+    newTwist.linear.x = lx
+    newTwist.linear.y = 0
+    newTwist.linear.z = 0
+    newTwist.angular.x = 0
+    newTwist.angular.y = 0
+    newTwist.angular.z = az
+    return newTwist
 
 def DataProcess():
     init_model()
     rospy.init_node('data_process', anonymous=True)
 
-    # For Sphero 
-    rospy.Subscriber('odom', Odometry, myCallback)
+    rospy.Subscriber('turtle1/pose', Pose, myCallback)
 
-    rospy.spin()
+    rate = rospy.Rate(10)
+    while not rospy.is_shutdown():
+        rate.sleep()
+    f.close()
 
 if __name__ == '__main__':
     DataProcess()

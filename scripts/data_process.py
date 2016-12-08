@@ -29,17 +29,20 @@ THR = 0.1
 
 pub = rospy.Publisher('cmd_vel', Twist, queue_size=10)
 
-index = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32]
-group_counter = dict((el,0) for el in index)
-group_theta = dict((el,0) for el in index)
-group_ts = dict((el,0) for el in index)
-group_theta_ts_max = dict((el,0) for el in index)
-group_ts_max = dict((el,-9999) for el in index)
+# index = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32]
+k = 16
+group_counter = dict((el,0) for el in range(k))
+group_x = dict((el,0) for el in range(k))
+group_y = dict((el,0) for el in range(k))
+group_theta = dict((el,0) for el in range(k))
+group_ts = dict((el,0) for el in range(k))
+group_theta_ts_max = dict((el,0) for el in range(k))
+group_ts_max = dict((el,-9999) for el in range(k))
 kmeans = KMeans(random_state=0)
 gmm_model = mixture.GaussianMixture(covariance_type='full')
 last_group = 0
 last_state = 0
-previous_state = dict((el,0) for el in index)
+previous_state = dict((el,0) for el in range(k))
 f = open('./data/data_process-' + str(time.time()) + '.txt', 'w+')
 
 curTheta = 0
@@ -79,8 +82,8 @@ def plot_results(X, Y, means, covariances, index, title):
         ell.set_alpha(0.5)
         splot.add_artist(ell)
 
-    plt.xlim(0., 10.)
-    plt.ylim(0., 16.)
+    plt.xlim(0., 20.)
+    plt.ylim(0., 20.)
     plt.title(title)
     plt.xticks(())
     plt.yticks(())
@@ -101,7 +104,6 @@ def createTwist(lx, ly):
 def CalcHeading (src, dst) : 
   height = dst[1] - src[1] 
   base   = dst[0] - src[0] 
-
   return math.atan2(height, base) 
 
 def IsCloseEnough (src, dst) : 
@@ -118,6 +120,8 @@ def IsCloseEnough (src, dst) :
 
 def init_model():
     global index
+    global group_x
+    global group_y
     global group_counter
     global group_theta
     global kmeans
@@ -127,11 +131,12 @@ def init_model():
     global dirc 
     global last_x
     global last_y
+    global k
 
     # result storage
-    index = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32]
-    group_counter = dict((el,0) for el in index)
-    group_theta = dict((el,0) for el in index)
+    # index = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32]
+    # group_counter = dict((el,0) for el in index)
+    # group_theta = dict((el,0) for el in index)
 
     # data preprocess
     my_data = genfromtxt('./data/frames.txt', delimiter=',')
@@ -154,7 +159,7 @@ def init_model():
     # more clusters: accrate but some critical states may be missed and lost the entire trace
     # less clusters: easy to move forward, but in less accurate way
     # k: number of clusters
-    k = 16
+    # k = 16
     # get init means for Gaussian Mixture Model
     kmeans.set_params(n_clusters = k)
     kmeans.fit(pos)
@@ -175,12 +180,14 @@ def init_model():
     # get timestamp and direction for each cluster
     index_counter = 0
 
-    # sum up all the timestamps/directions inside one cluster
+    # sum up all the timestamps/positions inside one cluster
     for x in np.nditer(clustring_result):
         group_number = x.item(0)
         group_counter[group_number] = group_counter[group_number] + 1
         group_theta[group_number] = group_theta[group_number] + dirc.item(index_counter)
         group_ts[group_number] = group_ts[group_number] + timestamps.item(index_counter)
+        group_x[group_number] = group_x[group_number] + pos[index_counter][0] 
+        group_y[group_number] = group_y[group_number] + pos[index_counter][1] 
         if group_ts_max[group_number] < timestamps.item(index_counter):
             group_theta_ts_max[group_number] = dirc.item(index_counter)
             group_ts_max[group_number] = timestamps.item(index_counter)
@@ -196,23 +203,81 @@ def init_model():
             value = value
         else:
             value = value / group_counter[key]
-            if abs(group_theta_ts_max[key] - value) > 0.3:
-                value = group_theta_ts_max[key]
+            # if the maximum theta and the average theta differs a lot, 
+            # the cluster should be at a turning corner 
+            # may not be true for Sphero, since there are usually multiple 
+            # clusters formed around each corner 
+            # if abs(group_theta_ts_max[key] - value) > 0.3:
+            #     value = group_theta_ts_max[key]
         group_ts[key] = value
         f.write("cluster timestamp: " + str(value) + "\n")
 
     # get the average direction for each cluster
+    # f.write("\n\n") 
+    # f.write("cluster theta: \n") 
+    # for key, value in group_theta.iteritems():
+    #     f.write("cluster number: " + str(key) + "\n")
+    #     f.write("# of elements in cluster: " + str(group_counter[key]) + "\n")
+    #     if group_counter[key] == 0:
+    #         value = value
+    #     else:
+    #         value = value / group_counter[key]
+    #     group_theta[key] = value
+    #     f.write("cluster theta: " + str(value) + "\n")
+
+    # get the average position for each cluster
     f.write("\n\n") 
-    f.write("cluster theta: \n") 
-    for key, value in group_theta.iteritems():
+    f.write("cluster mean position x: \n") 
+    for key, value in group_x.iteritems():
         f.write("cluster number: " + str(key) + "\n")
         f.write("# of elements in cluster: " + str(group_counter[key]) + "\n")
         if group_counter[key] == 0:
             value = value
         else:
             value = value / group_counter[key]
-        group_theta[key] = value
+        group_x[key] = value
+        f.write("cluster mean position x: " + str(value) + "\n")
+
+    f.write("\n\n") 
+    f.write("cluster mean position y: \n") 
+    for key, value in group_y.iteritems():
+        f.write("cluster number: " + str(key) + "\n")
+        f.write("# of elements in cluster: " + str(group_counter[key]) + "\n")
+        if group_counter[key] == 0:
+            value = value
+        else:
+            value = value / group_counter[key]
+        group_y[key] = value
+        f.write("cluster mean position y: " + str(value) + "\n")
+
+    # print out the mean position of each clustere 
+    for key, value in group_x.iteritems() : 
+      print ( "mean in cluster # " + str(key) + ": " + str(value) + ", " + str(group_y[key]) + "\n" ) 
+
+    # get the direction of each cluster based on mean positions 
+    f.write("\n\n") 
+    f.write("cluster theta: \n") 
+    for key, value in group_theta.iteritems():
+        f.write("cluster number: " + str(key) + "\n")
+
+        # find the next key based on time stamps 
+        next_key = 0
+        next_key_found = False
+        for k, v in group_ts.iteritems () : 
+          if v > group_ts[key] and v < group_ts[next_key] : 
+            next_key = k
+            next_key_found = True
+
+        if next_key_found : 
+          print ( str( key )  + " --> " + str( next_key ) ) 
+          group_theta[key] = CalcHeading ( [group_x[key], group_y[key]], [group_x[next_key], group_y[next_key]])  
+        else : 
+          group_theta[key] = CalcHeading ( [group_x[key], group_y[key]], [pos[-1][0], pos[-1][1]] ) 
+
         f.write("cluster theta: " + str(value) + "\n")
+
+    print ( group_theta ) 
+
     f.write("\n")
     f.write("\n")
 
@@ -257,13 +322,13 @@ def myCallback(data):
     new_ts = group_ts[pos_group]
     last_ts = group_ts[last_group]
 
-    if last_group == 0:
-        last_ts = 0
-    # choose group with timestamp checking
-    if new_ts < last_ts:
-        pos_group = last_group
-    else:
-        last_group = pos_group
+    # if last_group == 0:
+    #     last_ts = 0
+    # # choose group with timestamp checking
+    # if new_ts < last_ts:
+    #     pos_group = last_group
+    # else:
+    #     last_group = pos_group
 
     # get new target theta
     new_theta = group_theta[pos_group]
@@ -275,23 +340,8 @@ def myCallback(data):
     if distance < 0.1:
         newTwist = createTwist(0.0, 0.0)
 
-    # curTwist = createTwist(0, 0) 
-
-    # in-state checking
-    # if last_state == pos_group:
-    #     curTwist = createTwist(SPD * math.cos(PosT), SPD * math.sin(PosT))  
-    # else:
-    #     if abs(new_theta - PosT) < 0.1:
-    #         last_state = pos_group
-
     print ("Publish new twist")    
     pub.publish(curTwist)
-
-    # print (rospy.get_caller_id() + ' heard currentPos' + "\n")
-    # print (data)
-    # print ("\n\n")
-    # print ("In group: " + str(pos_group) + ' and make head turn to: ' + str(new_theta) + "\n")
-    # print ("\n\n")
 
     f.write(rospy.get_caller_id() + ' heard currentPos' + "\n")
     f.write('x: ' + str(PosX) + ',' + 'y: ' + str(PosY) + ',' + 'theta: ' +  str(PosT) +"\n" )

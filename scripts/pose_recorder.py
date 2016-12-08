@@ -23,6 +23,9 @@ st = datetime.datetime.fromtimestamp(ts).strftime('%Y-%m-%d_%H:%M:%S')
 # f = open('./data/path-' + str(st) + '.txt', 'w+')
 f = open('./data/frames.txt', 'w+')
 
+last_theta = 0.0
+first_sample = True
+
 # write new pose information of robot into log file
 # data format: 
 #      x,y,delta_time_stamp,theta
@@ -34,12 +37,31 @@ def callback(data):
     global SampleRate
     global counter
     global init_time
+    global last_theta
+    global first_sample
+
     delta_time = time.time() - init_time
     rospy.loginfo(rospy.get_caller_id() + 'I heard %s', data)
 
     if counter == 0 : 
-      theta = math.atan2(data.twist.twist.linear.y, data.twist.twist.linear.x)
-      newData = str(data.pose.pose.position.x) + "," + str(data.pose.pose.position.y) + "," + str(delta_time) + "," + str(theta)  
+
+      # If Sphero is not moving, use the theta of the previous callback
+      twistX = data.twist.twist.linear.x
+      twistY = data.twist.twist.linear.y
+      if first_sample : 
+        last_theta = math.atan2(twistY, twistX)
+        first_sample = False
+      if math.fabs(twistX) < 0.1 and math.fabs(twistY) < 0.1 : 
+        theta = last_theta 
+      else : 
+        theta = math.atan2(twistY, twistX)
+
+      # Seems that Sphero self-tracking error is more than 0.01 
+      # For better clustering results, round off the inaccurate digits
+      posX = round(data.pose.pose.position.x, 2)  
+      posY = round(data.pose.pose.position.y, 2)  
+      newData = str(posX) + "," + str(posY) + "," + str(delta_time) + "," + str(theta)  
+
       f = open('./data/frames.txt', 'a')
       f.write(newData)
       f.write("\n")

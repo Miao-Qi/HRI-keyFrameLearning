@@ -1,0 +1,3057 @@
+last position info: 
+postion in file: [ 2.24  7.35]
+last_x: 2.24last_y: 7.35
+clustering info: 
+cluster timestamp: 
+cluster number: 0
+# of elements in cluster: 39
+cluster timestamp: 1481158406.24
+cluster number: 1
+# of elements in cluster: 185
+cluster timestamp: 1481158400.49
+cluster number: 2
+# of elements in cluster: 83
+cluster timestamp: 1481158409.42
+cluster number: 3
+# of elements in cluster: 4
+cluster timestamp: 1481158408.12
+cluster number: 4
+# of elements in cluster: 21
+cluster timestamp: 1481158410.88
+cluster number: 5
+# of elements in cluster: 48
+cluster timestamp: 1481158405.18
+cluster number: 6
+# of elements in cluster: 28
+cluster timestamp: 1481158406.91
+cluster number: 7
+# of elements in cluster: 2
+cluster timestamp: 1481158409.41
+cluster number: 8
+# of elements in cluster: 47
+cluster timestamp: 1481158403.51
+cluster number: 9
+# of elements in cluster: 45
+cluster timestamp: 1481158407.64
+cluster number: 10
+# of elements in cluster: 35
+cluster timestamp: 1481158404.34
+cluster number: 11
+# of elements in cluster: 10
+cluster timestamp: 1481158405.71
+cluster number: 12
+# of elements in cluster: 168
+cluster timestamp: 1481158412.75
+cluster number: 13
+# of elements in cluster: 34
+cluster timestamp: 1481158402.69
+cluster number: 14
+# of elements in cluster: 19
+cluster timestamp: 1481158408.38
+cluster number: 15
+# of elements in cluster: 20
+cluster timestamp: 1481158410.27
+cluster number: 16
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 17
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 18
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 19
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 20
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 21
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 22
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 23
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 24
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 25
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 26
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 27
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 28
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 29
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 30
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 31
+# of elements in cluster: 0
+cluster timestamp: 0
+cluster number: 32
+# of elements in cluster: 0
+cluster timestamp: 0
+
+
+cluster theta: 
+cluster number: 0
+# of elements in cluster: 39
+cluster theta: 1.5305194979
+cluster number: 1
+# of elements in cluster: 185
+cluster theta: 0.0509447457339
+cluster number: 2
+# of elements in cluster: 83
+cluster theta: 0.0
+cluster number: 3
+# of elements in cluster: 4
+cluster theta: 0.785398163398
+cluster number: 4
+# of elements in cluster: 21
+cluster theta: 2.09439510239
+cluster number: 5
+# of elements in cluster: 48
+cluster theta: 0.0
+cluster number: 6
+# of elements in cluster: 28
+cluster theta: 1.5707963268
+cluster number: 7
+# of elements in cluster: 2
+cluster theta: 0.0
+cluster number: 8
+# of elements in cluster: 47
+cluster theta: 0.0
+cluster number: 9
+# of elements in cluster: 45
+cluster theta: 1.18682389136
+cluster number: 10
+# of elements in cluster: 35
+cluster theta: 0.0
+cluster number: 11
+# of elements in cluster: 10
+cluster theta: 0.0
+cluster number: 12
+# of elements in cluster: 168
+cluster theta: 0.355299169156
+cluster number: 13
+# of elements in cluster: 34
+cluster theta: 0.0
+cluster number: 14
+# of elements in cluster: 19
+cluster theta: 0.0
+cluster number: 15
+# of elements in cluster: 20
+cluster theta: 0.0
+cluster number: 16
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 17
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 18
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 19
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 20
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 21
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 22
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 23
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 24
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 25
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 26
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 27
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 28
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 29
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 30
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 31
+# of elements in cluster: 0
+cluster theta: 0
+cluster number: 32
+# of elements in cluster: 0
+cluster theta: 0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.46,y: 7.92,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.4933
+In group: 13 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.46,y: 7.92,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.4933
+In group: 13 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.45,y: 7.92,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.529
+In group: 13 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.44,y: 7.92,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.5649
+In group: 13 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.44,y: 7.92,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.5649
+In group: 13 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.44,y: 7.92,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.5649
+In group: 13 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.43,y: 7.92,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.601
+In group: 13 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.42,y: 7.93,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.6488
+In group: 13 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.42,y: 7.93,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.6488
+In group: 13 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.41,y: 7.93,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.6853
+In group: 13 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.4,y: 7.93,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.722
+In group: 13 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.4,y: 7.93,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.722
+In group: 13 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.39,y: 7.94,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.7706
+In group: 13 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.39,y: 7.94,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.7706
+In group: 13 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.38,y: 7.94,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8077
+In group: 13 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.38,y: 7.95,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8196
+In group: 13 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.38,y: 7.95,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8196
+In group: 13 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.38,y: 7.95,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8196
+In group: 13 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.38,y: 7.95,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8196
+In group: 13 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.38,y: 7.95,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8196
+In group: 13 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.38,y: 7.96,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8317
+In group: 13 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.38,y: 7.96,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8317
+In group: 13 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.38,y: 7.96,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8317
+In group: 13 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.38,y: 7.96,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8317
+In group: 13 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.39,y: 7.96,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.7946
+In group: 13 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.39,y: 7.97,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8069
+In group: 8 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.39,y: 7.97,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8069
+In group: 8 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.39,y: 7.97,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8069
+In group: 8 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.39,y: 7.97,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8069
+In group: 8 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.4,y: 7.98,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.7825
+In group: 8 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.4,y: 7.98,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.7825
+In group: 8 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.4,y: 7.98,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.7825
+In group: 8 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.4,y: 7.98,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.7825
+In group: 8 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.4,y: 7.99,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.7952
+In group: 8 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.4,y: 7.99,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.7952
+In group: 8 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.4,y: 7.99,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.7952
+In group: 8 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.4,y: 7.99,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.7952
+In group: 8 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.4,y: 7.99,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.7952
+In group: 8 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.4,y: 8.0,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8081
+In group: 8 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.4,y: 8.0,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8081
+In group: 8 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.4,y: 8.0,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8081
+In group: 8 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.4,y: 8.0,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8081
+In group: 8 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.4,y: 8.0,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8081
+In group: 8 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.4,y: 8.0,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8081
+In group: 8 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.4,y: 8.0,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8081
+In group: 8 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.4,y: 8.01,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8212
+In group: 10 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.4,y: 8.01,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8212
+In group: 10 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.4,y: 8.01,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8212
+In group: 10 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.4,y: 8.01,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8212
+In group: 10 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.4,y: 8.01,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8212
+In group: 10 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.4,y: 8.01,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8212
+In group: 10 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.4,y: 8.01,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8212
+In group: 10 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.4,y: 8.01,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8212
+In group: 10 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.4,y: 8.01,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8212
+In group: 10 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.4,y: 8.01,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8212
+In group: 10 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.4,y: 8.01,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8212
+In group: 10 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.4,y: 8.01,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8212
+In group: 10 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.4,y: 8.01,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8212
+In group: 10 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.4,y: 8.02,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8345
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.4,y: 8.02,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8345
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.4,y: 8.02,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8345
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.41,y: 8.03,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8113
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.41,y: 8.03,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8113
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.41,y: 8.04,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.825
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.41,y: 8.04,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.825
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.41,y: 8.05,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8389
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.41,y: 8.05,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8389
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.42,y: 8.05,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8024
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.42,y: 8.06,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8165
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.42,y: 8.06,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8165
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.42,y: 8.06,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8165
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.42,y: 8.06,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8165
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.42,y: 8.06,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8165
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.43,y: 8.06,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.7802
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.43,y: 8.06,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.7802
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.43,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.7945
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.43,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.7945
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.43,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.7945
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.44,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.7584
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.44,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.7584
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.44,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.7584
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.44,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.7584
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.45,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.7225
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.45,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.7225
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.45,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.7225
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.45,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.7225
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.45,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.7225
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.46,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.6868
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.46,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.6868
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.46,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.6868
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.46,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.6868
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.46,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.6868
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.47,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.6513
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.47,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.6513
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.47,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.6513
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.48,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.616
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.48,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.616
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.48,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.616
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.49,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.5809
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.49,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.5809
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.49,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.5809
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.5,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.546
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.5,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.546
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.5,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.546
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.51,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.5113
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.51,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.5113
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.52,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.4768
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.52,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.4768
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.53,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.4425
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.53,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.4425
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.54,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.4084
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.55,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.3745
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.55,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.3745
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.56,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.3408
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.57,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.3073
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.57,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.3073
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.58,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.274
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.58,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.274
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.59,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.2409
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.6,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.208
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.6,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.208
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.61,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.1753
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.62,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.1428
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.62,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.1428
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.63,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.1105
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.64,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.0784
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.64,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.0784
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.65,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.0465
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.66,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.0148
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.67,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.9833
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.67,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.9833
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.68,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.952
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.69,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.9209
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.69,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.9209
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.7,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.89
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.71,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.8593
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.71,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.8593
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.72,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.8288
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.73,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.7985
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.73,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.7985
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.74,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.7684
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.75,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.7385
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.76,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.7088
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.76,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.7088
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.77,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.6793
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.78,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.65
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.79,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.6209
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.8,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.592
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.8,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.592
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.81,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.5633
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.82,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.5348
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.83,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.5065
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.84,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.4784
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.84,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.4784
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.85,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.4505
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.86,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.4228
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.87,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.3953
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.88,y: 8.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.368
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.88,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.3825
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.89,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.3554
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.9,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.3285
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.91,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.3018
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.92,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.2753
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.92,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.2753
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.93,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.249
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.94,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.2229
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.95,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.197
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.95,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.197
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.96,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.1713
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.97,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.1458
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.98,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.1205
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.98,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.1205
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 0.99,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.0954
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.0,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.0705
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.01,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.0458
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.02,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.0213
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.02,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.0213
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.03,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.997
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.04,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.9729
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.05,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.949
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.06,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.9253
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.07,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.9018
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.07,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.9018
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.08,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.8785
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.09,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.8554
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.1,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.8325
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.11,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.8098
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.11,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.8098
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.12,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.7873
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.13,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.765
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.14,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.7429
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.15,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.721
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.16,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.6993
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.16,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.6993
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.17,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.6778
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.18,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.6565
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.19,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.6354
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.2,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.6145
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.21,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.5938
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.22,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.5733
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.23,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.553
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.23,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.553
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.24,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.5329
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.25,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.513
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.26,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.4933
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.26,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.4933
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.27,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.4738
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.28,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.4545
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.29,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.4354
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.3,y: 8.09,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.4312
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.3,y: 8.09,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.4312
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.31,y: 8.09,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.4125
+In group: 5 and make head turn to: 0.0
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.32,y: 8.09,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.394
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.33,y: 8.09,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.3757
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.33,y: 8.09,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.3757
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.34,y: 8.09,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.3576
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.35,y: 8.09,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.3397
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.36,y: 8.09,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.322
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.36,y: 8.09,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.322
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.36,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.3073
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.37,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.2898
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.38,y: 8.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.2725
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.39,y: 8.09,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.2701
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.4,y: 8.09,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.2532
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.41,y: 8.09,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.2365
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.42,y: 8.1,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.2349
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.42,y: 8.1,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.2349
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.43,y: 8.11,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.2337
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.44,y: 8.12,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.2329
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.44,y: 8.12,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.2329
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.45,y: 8.12,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.217
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.45,y: 8.13,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.2325
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.45,y: 8.13,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.2325
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.45,y: 8.14,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.2482
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.45,y: 8.14,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.2482
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.45,y: 8.15,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.2641
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.45,y: 8.15,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.2641
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.45,y: 8.16,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.2802
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.45,y: 8.17,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.2965
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.45,y: 8.17,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.2965
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.45,y: 8.18,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.313
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.45,y: 8.18,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.313
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.45,y: 8.19,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.3297
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.44,y: 8.2,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.3625
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.44,y: 8.2,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.3625
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.44,y: 8.21,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.3796
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.44,y: 8.22,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.3969
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.44,y: 8.22,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.3969
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.44,y: 8.23,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.4144
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.44,y: 8.23,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.4144
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.43,y: 8.24,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.4482
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.43,y: 8.24,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.4482
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.43,y: 8.25,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.4661
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.43,y: 8.25,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.4661
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.43,y: 8.26,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.4842
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.44,y: 8.27,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.4864
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.44,y: 8.27,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.4864
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.44,y: 8.28,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.5049
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.44,y: 8.29,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.5236
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.44,y: 8.3,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.5425
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.44,y: 8.31,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.5616
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.44,y: 8.31,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.5616
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.45,y: 8.32,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.565
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.45,y: 8.33,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.5845
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.45,y: 8.34,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.6042
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.45,y: 8.35,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.6241
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.45,y: 8.35,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.6241
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.45,y: 8.36,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.6442
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.45,y: 8.37,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.6645
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.45,y: 8.38,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.685
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.45,y: 8.39,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.7057
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.45,y: 8.4,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.7266
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.45,y: 8.4,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.7266
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.45,y: 8.41,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.7477
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.45,y: 8.42,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.769
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.45,y: 8.43,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.7905
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.45,y: 8.44,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.8122
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.46,y: 8.44,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.7965
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.46,y: 8.45,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.8184
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.46,y: 8.46,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.8405
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.46,y: 8.47,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.8628
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.46,y: 8.48,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.8853
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.46,y: 8.48,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.8853
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.46,y: 8.49,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.908
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.46,y: 8.5,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.9309
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.46,y: 8.51,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.954
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.46,y: 8.52,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.9773
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.46,y: 8.52,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 1.9773
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.46,y: 8.53,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.0008
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.46,y: 8.54,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.0245
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.46,y: 8.55,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.0484
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.46,y: 8.56,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.0725
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.46,y: 8.56,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.0725
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.46,y: 8.57,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.0968
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.47,y: 8.58,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.1058
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.47,y: 8.59,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.1305
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.47,y: 8.6,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.1554
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.47,y: 8.61,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.1805
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.47,y: 8.62,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.2058
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.47,y: 8.62,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.2058
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.47,y: 8.63,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.2313
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.47,y: 8.64,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.257
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.47,y: 8.65,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.2829
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.47,y: 8.65,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.2829
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.47,y: 8.66,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.309
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.47,y: 8.67,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.3353
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.47,y: 8.68,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.3618
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.47,y: 8.69,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.3885
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.47,y: 8.69,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.3885
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.47,y: 8.7,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.4154
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.47,y: 8.71,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.4425
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.47,y: 8.72,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.4698
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.47,y: 8.72,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.4698
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.47,y: 8.73,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.4973
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.47,y: 8.74,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.525
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.47,y: 8.75,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.5529
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.47,y: 8.75,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.5529
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.48,y: 8.76,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.5657
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.48,y: 8.77,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.594
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.48,y: 8.78,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.6225
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.48,y: 8.78,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.6225
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.48,y: 8.79,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.6512
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.48,y: 8.8,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.6801
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.48,y: 8.81,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.7092
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.48,y: 8.81,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.7092
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.48,y: 8.82,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.7385
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.48,y: 8.83,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.768
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.48,y: 8.84,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.7977
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.48,y: 8.84,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.7977
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.48,y: 8.85,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.8276
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.48,y: 8.86,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.8577
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.48,y: 8.87,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.888
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.48,y: 8.88,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.9185
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.48,y: 8.88,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.9185
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.48,y: 8.89,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.9492
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.48,y: 8.9,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 2.9801
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.48,y: 8.91,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.0112
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.49,y: 8.92,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.0274
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.49,y: 8.92,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.0274
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.49,y: 8.93,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.0589
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.49,y: 8.94,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.0906
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.49,y: 8.95,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.1225
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.49,y: 8.96,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.1546
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.49,y: 8.96,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.1546
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.49,y: 8.97,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.1869
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.49,y: 8.98,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.2194
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.49,y: 8.99,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.2521
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.49,y: 8.99,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.2521
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.49,y: 9.0,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.285
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.49,y: 9.01,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.3181
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.49,y: 9.01,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.3181
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.49,y: 9.02,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.3514
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.49,y: 9.03,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.3849
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.49,y: 9.04,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.4186
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.49,y: 9.04,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.4186
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.49,y: 9.05,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.4525
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.49,y: 9.06,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.4866
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.49,y: 9.06,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.4866
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.49,y: 9.07,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.5209
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.49,y: 9.08,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.5554
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.49,y: 9.09,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.5901
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.49,y: 9.09,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.5901
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.49,y: 9.1,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.625
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.49,y: 9.11,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.6601
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.49,y: 9.11,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.6601
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.49,y: 9.12,theta: 3.14159265359
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.6954
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.49,y: 9.13,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.7309
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.49,y: 9.14,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.7666
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.49,y: 9.14,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.7666
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.49,y: 9.15,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8025
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.5,y: 9.16,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8237
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.5,y: 9.17,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.86
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.5,y: 9.17,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.86
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.5,y: 9.18,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.8965
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.5,y: 9.19,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.9332
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.5,y: 9.2,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 3.9701
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.5,y: 9.21,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 4.0072
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.5,y: 9.21,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 4.0072
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.5,y: 9.22,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 4.0445
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.5,y: 9.23,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 4.082
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.5,y: 9.24,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 4.1197
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.5,y: 9.25,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 4.1576
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.5,y: 9.25,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 4.1576
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.5,y: 9.26,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 4.1957
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.5,y: 9.27,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 4.234
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.5,y: 9.28,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 4.2725
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.51,y: 9.29,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 4.2965
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.51,y: 9.29,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 4.2965
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.51,y: 9.3,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 4.3354
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.51,y: 9.31,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 4.3745
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.51,y: 9.32,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 4.4138
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.51,y: 9.32,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 4.4138
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.51,y: 9.33,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 4.4533
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.51,y: 9.34,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 4.493
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.51,y: 9.35,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 4.5329
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.51,y: 9.36,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 4.573
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.52,y: 9.36,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 4.5585
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.52,y: 9.37,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 4.5988
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.52,y: 9.38,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 4.6393
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.52,y: 9.38,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 4.6393
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.52,y: 9.39,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 4.68
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.52,y: 9.4,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 4.7209
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.52,y: 9.41,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 4.762
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.52,y: 9.41,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 4.762
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.52,y: 9.42,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 4.8033
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.52,y: 9.43,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 4.8448
+In group: 0 and make head turn to: 1.5305194979
+
+
+/data_process_19991_1481158453162 heard currentPos
+x: 1.52,y: 9.44,theta: 0.0
+Destination position: (2.24, 7.35)
+Distance to Destination: 4.8865
+In group: 0 and make head turn to: 1.5305194979
+
+

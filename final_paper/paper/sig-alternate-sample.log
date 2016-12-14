@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  13 DEC 2016 18:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  13 DEC 2016 20:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -309,18 +309,18 @@ LaTeX Font Info:    Try loading font information for U+lasy on input line 52.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-./sig-alternate-sample.tex:60: Missing $ inserted.
+./sig-alternate-sample.tex:177: Missing $ inserted.
 <inserted text> 
                 $
-l.60 
-     
+l.177 \maketitle
+                
 ? s
 OK, entering \scrollmode...
-./sig-alternate-sample.tex:60: Display math should end with $$.
+./sig-alternate-sample.tex:177: Display math should end with $$.
 <to be read again> 
                    \par 
-l.60 
-     
+l.177 \maketitle
+                
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
@@ -495,7 +495,7 @@ So I shall assume that you typed `$$' both times.
 Here is how much of TeX's memory you used:
  3198 strings out of 493014
  41583 string characters out of 6133351
- 117781 words of memory out of 5000000
+ 116781 words of memory out of 5000000
  6640 multiletter control sequences out of 15000+600000
  51335 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -511,7 +511,7 @@ usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/loc
 al/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive
 /2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texm
 f-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on sig-alternate-sample.pdf (9 pages, 388690 bytes).
+Output written on sig-alternate-sample.pdf (9 pages, 388870 bytes).
 PDF statistics:
  85 PDF objects out of 1000 (max. 8388607)
  54 compressed objects within 1 object stream

@@ -44,10 +44,10 @@
 % ===============================================================
 %
 % For tracking purposes - this is V2.0 - May 2012
-
+%
 \documentclass{sig-alternate-05-2015}
-
-
+%
+%
 \begin{document}
 \[% Copyright
 %\setcopyright{acmcopyright}
@@ -57,26 +57,26 @@
 %\setcopyright{usgovmixed}
 %\setcopyright{cagov}
 %\setcopyright{cagovmixed}
-
-
+%
+%
 % DOI
 %\doi{10.475/123_4}
-
+%
 % ISBN
 %\isbn{123-4567-24-567/08/06}
-
+%
 %Conference
 %\conferenceinfo{PLDI '13}{June 16--19, 2013, Seattle, WA, USA}
-
+%
 %\acmPrice{\$15.00}
-
+%
 %
 % --- Author Metadata here ---
 %\conferenceinfo{WOODSTOCK}{'97 El Paso, Texas USA}
 %\CopyrightYear{2007} % Allows default copyright year (20XX) to be over-ridden - IF NEED BE.
 %\crdata{0-12345-67-8/90/01}  % Allows default copyright data (0-89791-88-6/97/05) to be over-ridden - IF NEED BE.
 % --- End of Author Metadata ---
-
+%
 %\title{Alternate {\ttlit ACM} SIG Proceedings Paper in LaTeX
 %Format\titlenote{(Produces the permission block, and
 %copyright information). For use with
@@ -111,7 +111,7 @@
 % These 'additional authors' will be output/set for you
 % without further effort on your part as the last section in
 % the body of your article BEFORE References or any Appendices.
-
+%
 \numberofauthors{2} %  in this sample file, there are a *total*
 % of EIGHT authors. SIX appear on the 'first-page' (for formatting
 % reasons) and the remaining two appear in the \additionalauthors section.
@@ -173,7 +173,7 @@ Chunheng Luo\\
 % Just remember to make sure that the TOTAL number of authors
 % is the number that will appear on the first page PLUS the
 % number that will appear in the \additionalauthors section.
-
+%
 \maketitle
 \begin{abstract}
 %This paper provides a sample of a \LaTeX\ document which conforms,
@@ -462,19 +462,19 @@ Secondly, the robot's coordinate system is rotated by an angle of up to 5 degree
 Finally, the unevenness of the friction caused by carpet patterns also contribute to the error in velocity control. Such unevenness gives different amount of friction in different directions, which results in different speed deviations in different directions, and thus an error of the robot's moving direction is caused. 
 
 \subsection{TD Requires Less Task Load} 
-TD casts less task load on teachers (P = 0.074 in Wilcoxon signed rank test) according to the result collected from the experiment.
+TD casts less task load on teachers (P = 0.074 in Wilcoxon signed rank test on TLX) according to the result collected from the experiment.
  
-The difference of LTX mainly comes from MD and FR as shown in Figure ~\ref{fig:TLX}. The mental demand of KD is because KD requires the teacher giving extra instruction when the robot approached the corner points, or the position that teacher feels is important. 
-FR also contributes great portion towards LTX. This mainly because teachers forgot to keep certain frame on the corner and realized it before keep next frame. The teachers then tried to guide the robot move back to the last keyframe end position. This process causes frustrated feeling on teachers. 
+The difference of LTX mainly comes from MD and FR as shown in Figure ~\ref{fig:TLX}. The mental demand of KD is higher than TD because KD requires the teacher giving extra an instruction when the robot approached the corner points, or the position that teacher feels is important. 
+FR also contributes great portion towards LTX. The frustration feeling mainly comes from the teachers forgetting to keep certain frame on the corner, and realized it before keep next frame. In this situation, most of teachers choose to guide the robot move back to the last keyframe end position. This back and forth process generates makes the teachers get more and more frustrated. 
 
-Again, due to the limitation of the robot platform, both TD and KD require the teachers put effort the guide the robot. They usually find the latency between the give instructions and the robot response to the instruction, and then try to accommodate to this latency by giving the instructions when the robot approaching its next target point. This process requires extra effort of teachers. In future work, the language recognize process should be optimized to reduce the system setup limitation effect on the experiment result. 
+Again, due to the limitation of the robot platform, both TD and KD require the teachers put effort in guide the robot. They usually find the latency between the give instructions and the robot response to the instruction, and then try to accommodate to this latency by giving the instructions as the robot approaching its next target point. This process requires extra effort from teachers. In future work, the language recognize process should be optimized to reduce the system setup limitation effect on the experiment result. 
 
 \subsection{KD is More Effective} 
-As shown in the result section, KD has better performance than TD in terms of effectiveness considering all trend, accuracy and teacher evaluation (P = 0.027 in Wilcoxon signed rank test ). 
+As shown in the result section, KD has better performance than TD in terms of effectiveness considering all trend, accuracy, teacher evaluation and TEX(P = 0.027 in Wilcoxon signed rank test ). 
 
-The Figure ~\ref{fig:TEX}. shows that robot learnt trajectory from TD and KD get similar trend scores, but the learnt from KD has much better scores in accuracy. This could be due to as the system keep all the data sampled along TD, the position noise and error get accumulated along the time. This will not necessary affect the clustering results because the relative position between each sample position may remain accurate, but the recommendation given by the model may has error because the model gives target position in absolute value due to the limitation of robot platform we discussed in previous section.
+The Figure ~\ref{fig:TEX}. shows that the trajectories learnt from TD and KD get similar trend scores, but the trajectory learnt from KD has much better scores in accuracy. This could be due to the position noise and error get accumulated along the time, as the system keep all the data sampled along the entire TD process. The noise and error in robot position information may be not necessary to affect the clustering results because the relative position between each sample position may remain accurate, but the recommendation given by the model may has error because the model gives target position in absolute value.
 
-Another possible reason that cause the accuracy difference is the TD may not collect enough data at the corner points to make it a stand-alone cluster. In simulation, the turtles node stay in the corner for a period of time waiting for turning into its target direction. In the experiment setup, in contrast, teacher usually let the robot stay at the corner for fairly short of time, or even given turning instruction in advance to the robot approaching the corner. This will cause the GMM clustering the corner into its adjacent line segment. The model will then give the robot recommendation directly goes to the mean of next line segment instead of going to the corner first. The KD have no issue with sample data distribution because almost all the users successfully keep the corner points as one of key points.
+Another possible reason that causes the accuracy difference is the TD may not collect enough data at the corner point to make it a stand-alone cluster. In simulation, the turtles node stay in the every corner for a period of time waiting for the turtle node turning into its target direction. In the experiment setup, in contrast, the teachers usually let the robot stay at the corner for fairly short of time, or even given turning instruction in advance to the robot getting to the next the intersection of two line segments. This causes the GMM clustering the corner into its adjacent line segment. The model will then give the robot recommendation directly goes to the mean of next line segment instead of going to the corner first. The KD have no issue with sample data distribution because almost all the users successfully keep the corner points as one of key points.
 
 \subsection{Teaching Strategies}  
 We found from our observations that different human teachers tend to use different teaching strategies, and they usually deliberately adjust their strategies between demonstrations attempting to improve the robot's performance.

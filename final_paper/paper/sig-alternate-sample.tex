@@ -49,9 +49,8 @@
 
 
 \begin{document}
-
-% Copyright
-\setcopyright{acmcopyright}
+\[% Copyright
+%\setcopyright{acmcopyright}
 %\setcopyright{acmlicensed}
 %\setcopyright{rightsretained}
 %\setcopyright{usgov}
@@ -61,19 +60,19 @@
 
 
 % DOI
-\doi{10.475/123_4}
+%\doi{10.475/123_4}
 
 % ISBN
-\isbn{123-4567-24-567/08/06}
+%\isbn{123-4567-24-567/08/06}
 
 %Conference
-\conferenceinfo{PLDI '13}{June 16--19, 2013, Seattle, WA, USA}
+%\conferenceinfo{PLDI '13}{June 16--19, 2013, Seattle, WA, USA}
 
-\acmPrice{\$15.00}
+%\acmPrice{\$15.00}
 
 %
 % --- Author Metadata here ---
-\conferenceinfo{WOODSTOCK}{'97 El Paso, Texas USA}
+%\conferenceinfo{WOODSTOCK}{'97 El Paso, Texas USA}
 %\CopyrightYear{2007} % Allows default copyright year (20XX) to be over-ridden - IF NEED BE.
 %\crdata{0-12345-67-8/90/01}  % Allows default copyright data (0-89791-88-6/97/05) to be over-ridden - IF NEED BE.
 % --- End of Author Metadata ---
@@ -301,13 +300,14 @@ The learning model is same to the TD learning part, but the training data requir
 \centering
 \includegraphics[width = \textwidth]{SysImplementation}
 \caption{System Framework}
+\label{fig:SysImplementation}
 \end{figure*}
 
 \section{System Implementation} 
 The system is implemented based on Sphero SPRK, a mobile robotic platform supporting Bluetooth wireless communication. The robot has two motors controlling the linear velocity and angular velocity, respectively. It can achieve self-localization on an absolute coordinate system using a gyroscope and an accelerometer. The robot is also equipped with a full RGB spectrum LED. 
 
 
-As shown in Fig. 1, a controller based on Robot Operating System (ROS) is built on a computer terminal to interface the robot learner with the human teacher. The terminal and the robot communicate with each other via Sphero ROS, an open-source bluetooth driver providing Sphero APIs. 
+As shown in Figure~\ref{fig:SysImplementation}, a controller based on Robot Operating System (ROS) is built on a computer terminal to interface the robot learner with the human teacher. The terminal and the robot communicate with each other via Sphero ROS, an open-source bluetooth driver providing Sphero APIs. 
 
 
 The path teaching scenario involves two phases: the teaching phase, where the human teacher teaches the navigation path to the robot learner through either KD or TD, and the execution phase where the robot attempts to repeat the navigation based on the information perceived from human demonstrations. 
@@ -341,6 +341,13 @@ The position of the robot is constantly checked against the current sub-destinat
 %\caption{System Framework}
 %\end{figure}
 
+\begin{figure}
+\centering
+\includegraphics[width = 0.38\textwidth]{simulation_path}
+\caption{Simulation Path}
+\label{fig:simulation_path}
+\end{figure} 
+
 \section{Simulations} 
 To verify the model selection and the system setup is fair for both TD and KD, we implement our system on turtlesim, which is a agent simulator on ROS platform. The purpose of simulation is to show given the position information under ideal environment, i.e. position information with no noise and data sampling with no delay and the robot having its direction information.
  
@@ -348,7 +355,7 @@ The system setup in simulation and the experiment are generally the same. The on
  
 To accommodate the difference between the simulation and the experiment setup, we add a transaction state in simulation when robot repeat the learnt path. In this state, the turtlesim node only make direction change without position changing to simulate the behavior of Sphero SPRK.
  
-In the simulation, we test 4 different paths (Fig. 2) on TD and KD. All the test paths only construct with straight line segments and no curve. We assume each teacher will give ``Keep this frame'' instruction on each turning point. The results show that GMM with both sampling data along movement and generated on key points can perfectly repeat the demonstration movement. This indicated that our model selection is fair to the TD and KD under ideal environment. 
+In the simulation, we test 4 different paths as shown in Figure~\ref{fig:simulation_path}. on TD and KD. All the test paths only construct with straight line segments and no curve. We assume each teacher will give ``Keep this frame'' instruction on each turning point. The results show that GMM with both sampling data along movement and generated on key points can perfectly repeat the demonstration movement. This indicated that our model selection is fair to the TD and KD under ideal environment. 
 
 
 \section{Experiments} 
@@ -356,16 +363,19 @@ Experiments are conducted to compare TD and KD in the path teaching scenario. Th
 
 \subsection{Experiment Design} 
 \subsubsection{Task} 
-Ten students of The University of Texas at Austin are recruited as experiment participants. Each of them is required to teach the robot to navigate through a path with two 90-degree right turns and three one-meter segments, as shown in Fig. 3. The goal of the human teacher is 1) to enable the robot to reach the end point of the path without assistance, and 2) to make the robot follow the shape of the path as accurately as possible. 
+Ten students of The University of Texas at Austin are recruited as experiment participants. Each of them is required to teach the robot to navigate through a path with two 90-degree right turns and three one-meter segments, as shown in Figure~\ref{fig:ExperimentTask}. The goal of the human teacher is 1) to enable the robot to reach the end point of the path without assistance, and 2) to make the robot follow the shape of the path as accurately as possible. 
 
 
 The experiments are conducted on the floor of a laboratory. The navigation path is marked by the starting point, the end point and the two turning points, using 10cm x 10cm diamond shaped paper stickers.
-
-
+\begin{figure}
+\centering
+\includegraphics[width = 0.38\textwidth]{FullSizeRender}
+\end{figure} 
 \begin{figure}
 \centering
 \includegraphics[width = 0.38\textwidth]{ExperimentTask}
 \caption{Experiment Path}
+\label{fig:ExperimentTask}
 \end{figure} 
 
 \subsubsection{Conditions}
@@ -408,7 +418,30 @@ $$TEX = 0.4 \cdot avg(T[1:3]) + 0.2 \cdot avg(A[1:3]) + 0.4 \cdot avg(E[1:3]) $$
 We use the NASA Task Load Index (NASA TLX) to evaluate the human teacher's task load in the path teaching scenario. Each participant is asked to fill a NASA TLX evaluation form for each demonstration method. The evaluation form consists of six parts: Mental Demand (MD), Physical Demand (PD), Temporal Demand (TD), Performance (PF), Effort (EF) and Frustration (FR). We do not take TD and PF into the combined evaluation of TLX since we do not set time limits for the teaching task and we have already taken the teacher's subjective evaluation of the task performance into account in TEX. So the task load of each demonstration method is evaluated as 
 $$TLX=avg([MD, PD, EF, FR]) $$
 
+\begin{figure}
+\centering
+\includegraphics[width = 0.38\textwidth]{TEX}
+\caption{Teaching Effectiveness Result}
+\label{fig:TEX}
+\end{figure} 
+
+\begin{figure}
+\centering
+\includegraphics[width = 0.38\textwidth]{TLX}
+\caption{NASA Task Load Result}
+\label{fig:TLX}
+\end{figure} 
+
 \section{Results} 
+We collected data from 10 participants and calculate TEX and TLX based on the experiment results. 
+
+Figure~\ref{fig:TEX}. shows the result Teaching Effectiveness measurements from the experiments. KD get higher scores consider all three measurement aspects. Both TD and KD get high scores in aspect of Trend, which means the robot learnt correct direction according to the trajectory. However TD get much higher score in aspect of Accuracy. Only one teacher get partial success on TD learning on average which cause the single point in Accuracy column in Figure~\ref{fig:TEX}. The robot either doesn't move smoothly to the next target point or turns at the point that falls outside the 10cm range around the corner point. Only 2 partial success happens in all 60 times of learning. The robot either successfully moves along the designed trajectory or has large error at the beginning of the path. The large error happening at the very start point, usually along the first line segment, causes the position inaccuracy in the following movement consequently. 
+
+The higher Accuracy scores also leads to higher scores of KD in terms of Teacher Evaluation of learnt trajectory. The accuracy aspects vector has very high correlation with Teacher Evaluation vector(Pearson correlation of 0.82), while the Trend vector has fairly low correlation towards Teacher Evaluation vector(Pearson correlation of 0.40). In other words, the participants focus more on the accuracy of learnt trajectory, regardless of the correct trend of robot movement.
+
+Figure~\ref{fig:TLX}. shows the result NASA Task Load measurements from the experiments. TD get lower TLX. The differences between TD and KD in PD is fairly small because the instructors are only required to give verbal instructions to guide the robot. The differences scores on MD, EF and FR will discussed in the Discussion section.
+
+Noticed that the range of user evaluation of NASA task load various a lot between teachers, we apply Wilcoxon signed rank test on our experiment result, which pair up the rankings from the same users.
 
 \section{Discussion} 
 In this section, we explain the observations from the experiments and further discuss the experimental results shown in the last section. 
@@ -429,8 +462,19 @@ Secondly, the robot's coordinate system is rotated by an angle of up to 5 degree
 Finally, the unevenness of the friction caused by carpet patterns also contribute to the error in velocity control. Such unevenness gives different amount of friction in different directions, which results in different speed deviations in different directions, and thus an error of the robot's moving direction is caused. 
 
 \subsection{TD Requires Less Task Load} 
+TD casts less task load on teachers (P = 0.074 in Wilcoxon signed rank test) according to the result collected from the experiment.
+ 
+The difference of LTX mainly comes from MD and FR as shown in Figure ~\ref{fig:TLX}. The mental demand of KD is because KD requires the teacher giving extra instruction when the robot approached the corner points, or the position that teacher feels is important. 
+FR also contributes great portion towards LTX. This mainly because teachers forgot to keep certain frame on the corner and realized it before keep next frame. The teachers then tried to guide the robot move back to the last keyframe end position. This process causes frustrated feeling on teachers. 
+
+Again, due to the limitation of the robot platform, both TD and KD require the teachers put effort the guide the robot. They usually find the latency between the give instructions and the robot response to the instruction, and then try to accommodate to this latency by giving the instructions when the robot approaching its next target point. This process requires extra effort of teachers. In future work, the language recognize process should be optimized to reduce the system setup limitation effect on the experiment result. 
 
 \subsection{KD is More Effective} 
+As shown in the result section, KD has better performance than TD in terms of effectiveness considering all trend, accuracy and teacher evaluation (P = 0.027 in Wilcoxon signed rank test ). 
+
+The Figure ~\ref{fig:TEX}. shows that robot learnt trajectory from TD and KD get similar trend scores, but the learnt from KD has much better scores in accuracy. This could be due to as the system keep all the data sampled along TD, the position noise and error get accumulated along the time. This will not necessary affect the clustering results because the relative position between each sample position may remain accurate, but the recommendation given by the model may has error because the model gives target position in absolute value due to the limitation of robot platform we discussed in previous section.
+
+Another possible reason that cause the accuracy difference is the TD may not collect enough data at the corner points to make it a stand-alone cluster. In simulation, the turtles node stay in the corner for a period of time waiting for turning into its target direction. In the experiment setup, in contrast, teacher usually let the robot stay at the corner for fairly short of time, or even given turning instruction in advance to the robot approaching the corner. This will cause the GMM clustering the corner into its adjacent line segment. The model will then give the robot recommendation directly goes to the mean of next line segment instead of going to the corner first. The KD have no issue with sample data distribution because almost all the users successfully keep the corner points as one of key points.
 
 \subsection{Teaching Strategies}  
 We found from our observations that different human teachers tend to use different teaching strategies, and they usually deliberately adjust their strategies between demonstrations attempting to improve the robot's performance.
@@ -858,4 +902,5 @@ We want to acknowledge Prof. Andrea L. Thomaz for providing the robotic platform
 %it useful but please remember not to change it.
 %%\balancecolumns % GM June 2007
 %% That's all folks!
+\]
 \end{document}
